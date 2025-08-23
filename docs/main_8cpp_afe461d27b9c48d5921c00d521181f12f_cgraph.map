@@ -1,0 +1,29 @@
+<map id="loop" name="loop">
+<area shape="rect" id="Node000001" title="Loop for core 0, handling sensor reads." alt="" coords="5,183,51,209"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#a9163644b089001958496a71b73b9091a" title="Decodes the packet to a CSV row." alt="" coords="125,31,229,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="31,181,54,130,73,100,97,74,113,63,116,67,100,78,77,103,59,132,36,183"/>
+<area shape="rect" id="Node000006" href="$CommandMessage_8cpp.html#a614e558f381a8d26db49eed9b12fd14f" title=" " alt="" coords="334,107,429,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="35,181,59,147,77,130,98,118,154,101,213,95,269,97,319,104,318,109,269,102,213,100,155,106,100,122,80,135,63,151,39,184"/>
+<area shape="rect" id="Node000007" href="$main_8cpp.html#a76a2f3ef1d3b3d36284ea02246512daa" title="Handle commands read from serial input." alt="" coords="117,132,236,159"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="50,186,120,162,122,167,52,191"/>
+<area shape="rect" id="Node000008" href="$CommandMessage_8cpp.html#ad408818d8c69721c19d63006e8ef4d22" title=" " alt="" coords="334,157,429,184"/>
+<area shape="poly" id="edge13_Node000001_Node000008" title=" " alt="" coords="51,192,318,172,319,178,51,197"/>
+<area shape="rect" id="Node000009" href="$classErrorDisplay.html#a4f9e7e64ffc64711653b539bf3d8d24f" title="Accesses the only instance of ErrorDisplay (Singleton)" alt="" coords="102,233,252,260"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="52,201,122,225,120,230,50,206"/>
+<area shape="rect" id="Node000010" href="$main_8cpp.html#a35aec64ebd5600523486586642a4fe23" title="Reads sensor data into a packet byte array." alt="" coords="99,284,255,311"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="41,208,65,239,100,270,109,275,106,279,97,274,61,243,36,211"/>
+<area shape="rect" id="Node000013" href="$classErrorDisplay.html#a493bde338b369414abffe90e0d49e93b" title="Toggles the level of the error display." alt="" coords="109,335,245,361"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="36,209,57,263,76,294,100,321,106,325,102,329,97,325,72,297,52,265,31,211"/>
+<area shape="rect" id="Node000003" href="$classSensor.html#ab344e7fbc9acdc5dcc7ae59d0a3fb5f6" title="Used for onboard decoding of packets." alt="" coords="304,5,459,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="229,35,289,27,290,33,230,40"/>
+<area shape="rect" id="Node000005" href="$classSensor.html#a62d72a2f81422ac2d2fa8ae86ba08571" title="Returns CSV line in the same format as readData() but with &quot;&#45;&quot; instead of data." alt="" coords="315,56,448,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="230,48,300,57,299,62,229,53"/>
+<area shape="rect" id="Node000004" href="$classDevice.html#abbc7184e7fb286208c3b30357cf53f88" title=" " alt="" coords="508,5,673,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="459,16,493,16,493,21,459,21"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="236,135,318,125,319,130,237,141"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="237,150,319,160,318,166,236,155"/>
+<area shape="rect" id="Node000011" href="$classSensor.html#a1d128dc295e634de6506da5cbb716b64" title="Append the data from a sensor to the packet if the minium period is satisfied." alt="" coords="303,284,460,311"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="255,295,287,295,287,300,255,300"/>
+<area shape="rect" id="Node000012" href="$classSensor.html#ae835436cbb1fd60580e72a4ee7014c48" title="Used for creating packets, reads data from the sensor and appends it to the passed uint8_t array poin..." alt="" coords="508,284,673,311"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="461,295,492,295,492,300,461,300"/>
+</map>

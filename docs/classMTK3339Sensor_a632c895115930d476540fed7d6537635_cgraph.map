@@ -1,0 +1,5 @@
+<map id="MTK3339Sensor::readData" name="MTK3339Sensor::readData">
+<area shape="rect" id="Node000001" title="Reads and returns data from the MTK3339 GPS corresponding to the CSV header." alt="" coords="5,5,185,32"/>
+<area shape="rect" id="Node000002" href="$classSensor.html#a62d72a2f81422ac2d2fa8ae86ba08571" title="Returns CSV line in the same format as readData() but with &quot;&#45;&quot; instead of data." alt="" coords="233,5,366,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,16,217,16,217,21,185,21"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="MTK3339Sensor.h" name="MTK3339Sensor.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="179,5,308,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="351,320,427,347"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,27,113,36,52,54,28,67,13,82,8,100,15,121,46,163,83,199,125,230,170,256,260,295,336,318,335,323,258,300,167,261,122,234,79,203,41,166,11,124,3,100,9,79,25,62,50,49,112,31,178,22"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="25,80,190,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="224,35,157,74,154,70,221,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="214,88,273,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="246,32,246,73,241,73,241,32"/>
+<area shape="rect" id="Node000005" href="$PayloadConfig_8h.html" title="Central location for pinout and config defines." alt="" coords="297,88,414,115"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="263,30,328,77,325,81,260,35"/>
+<area shape="rect" id="Node000006" href="$Sensor_8h.html" title=" " alt="" coords="439,88,512,115"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="285,30,427,77,433,79,431,84,425,83,284,35"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="451,117,419,140,404,155,393,172,382,206,379,241,385,304,380,305,373,241,377,205,388,170,400,151,415,136,448,113"/>
+<area shape="rect" id="Node000007" href="$Device_8h.html" title=" " alt="" coords="402,171,475,197"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="472,116,453,158,448,156,467,114"/>
+<area shape="rect" id="Node000008" href="$Logger_8h.html" title=" " alt="" coords="452,245,523,272"/>
+<area shape="poly" id="edge11_Node000006_Node000008" title=" " alt="" coords="481,115,490,170,492,230,486,230,485,171,476,116"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="437,199,400,306,395,304,432,197"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="449,196,473,231,468,234,445,199"/>
+<area shape="poly" id="edge10_Node000008_Node000002" title=" " alt="" coords="472,275,420,313,416,309,469,270"/>
+</map>

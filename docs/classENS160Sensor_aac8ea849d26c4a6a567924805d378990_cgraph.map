@@ -1,0 +1,7 @@
+<map id="ENS160Sensor::readData" name="ENS160Sensor::readData">
+<area shape="rect" id="Node000001" title="Reads Air Quality Index, TVOC (ppb), and ECOS (ppm)" alt="" coords="5,31,178,57"/>
+<area shape="rect" id="Node000002" href="$classDevice.html#a030b016bedb9a917634091199a946c94" title="Get if the Device is Verified." alt="" coords="227,5,358,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,30,211,26,211,32,178,36"/>
+<area shape="rect" id="Node000003" href="$classSensor.html#a62d72a2f81422ac2d2fa8ae86ba08571" title="Returns CSV line in the same format as readData() but with &quot;&#45;&quot; instead of data." alt="" coords="226,56,359,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,52,210,56,210,62,178,58"/>
+</map>

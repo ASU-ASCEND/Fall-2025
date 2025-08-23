@@ -1,0 +1,20 @@
+<map id="OzoneSensor" name="OzoneSensor">
+<area shape="rect" id="Node000001" title="Implementation of a Sensor for the onboard temperature sensor." alt="" coords="372,897,497,1073"/>
+<area shape="rect" id="Node000002" href="$classSensor.html" title="Parent class for sensor objects." alt="" coords="265,444,425,833"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="402,847,415,897,410,898,397,848"/>
+<area shape="rect" id="Node000003" href="$classDevice.html" title="Implements the recovery system for Sensor and Storage objects." alt="" coords="187,155,328,395"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="292,409,301,443,296,445,287,410"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,99,75"/>
+<area shape="poly" id="edge7_Node000002_Node000004" title=" " alt="" coords="49,75,42,137,41,219,50,308,62,352,78,393,113,449,157,499,205,543,253,579,250,583,202,547,153,503,108,452,73,396,57,354,45,309,35,219,37,137,44,74"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="72,73,110,129,135,153,177,192,173,196,131,157,106,132,68,76"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="468,5,495,75"/>
+<area shape="poly" id="edge9_Node000002_Node000005" title=" " alt="" coords="497,57,508,76,517,98,519,115,517,131,503,210,483,288,434,436,429,435,478,287,498,208,512,130,514,115,512,99,504,78,492,60"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="470,53,415,96,349,157,341,165,337,161,345,153,412,92,467,49"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="165,5,203,75"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="191,74,203,130,205,138,200,139,198,131,186,75"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="298,5,345,75"/>
+<area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="347,70,360,98,362,114,360,131,354,427,349,427,355,131,356,114,355,99,342,72"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="300,62,284,79,272,100,260,138,255,137,267,98,280,76,296,58"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="449,604,601,673"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="519,674,464,881,459,880,514,672"/>
+</map>

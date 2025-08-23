@@ -1,0 +1,22 @@
+<map id="BME280Sensor.cpp" name="BME280Sensor.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="177,5,314,32"/>
+<area shape="rect" id="Node000002" href="$BME280Sensor_8h.html" title=" " alt="" coords="61,80,185,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,35,159,74,156,69,223,30"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="209,80,283,107"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="248,33,248,64,243,64,243,33"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="308,80,368,107"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="263,30,312,68,309,73,260,35"/>
+<area shape="rect" id="Node000003" href="$Sensor_8h.html" title=" " alt="" coords="22,155,96,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,109,82,145,78,141,110,105"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="119,155,258,181"/>
+<area shape="poly" id="edge9_Node000002_Node000007" title=" " alt="" coords="136,105,169,141,165,145,133,109"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="9,379,85,405"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="47,184,28,204,14,230,8,266,12,302,23,336,35,364,30,366,18,338,7,303,3,266,9,228,24,201,43,180"/>
+<area shape="rect" id="Node000005" href="$Device_8h.html" title=" " alt="" coords="22,229,96,256"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="62,182,62,214,56,214,56,182"/>
+<area shape="rect" id="Node000006" href="$Logger_8h.html" title=" " alt="" coords="85,304,156,331"/>
+<area shape="poly" id="edge8_Node000003_Node000006" title=" " alt="" coords="75,180,94,201,111,228,120,259,123,288,118,289,115,260,106,230,90,204,71,183"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="61,257,52,363,47,363,55,256"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="72,255,102,290,98,294,68,258"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="110,333,72,369,69,366,106,329"/>
+</map>

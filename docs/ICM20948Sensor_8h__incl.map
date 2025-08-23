@@ -1,0 +1,24 @@
+<map id="ICM20948Sensor.h" name="ICM20948Sensor.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="386,5,519,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,150,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="387,35,159,79,158,74,386,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="174,80,306,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="416,35,293,77,291,72,414,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="331,80,456,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="444,34,415,69,411,66,440,31"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="480,80,544,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="465,31,494,66,490,70,461,34"/>
+<area shape="rect" id="Node000006" href="$PayloadConfig_8h.html" title="Central location for pinout and config defines." alt="" coords="568,80,686,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="484,30,583,71,581,76,482,35"/>
+<area shape="rect" id="Node000007" href="$Sensor_8h.html" title=" " alt="" coords="710,80,784,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="504,30,696,77,694,82,503,35"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="697,304,773,331"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="734,109,716,130,701,156,696,191,700,227,710,261,723,289,718,291,705,263,695,228,690,191,696,154,712,127,730,106"/>
+<area shape="rect" id="Node000009" href="$Device_8h.html" title=" " alt="" coords="710,155,784,181"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="750,107,750,139,744,139,744,107"/>
+<area shape="rect" id="Node000010" href="$Logger_8h.html" title=" " alt="" coords="772,229,844,256"/>
+<area shape="poly" id="edge12_Node000007_Node000010" title=" " alt="" coords="763,105,782,126,799,154,808,184,811,214,806,214,802,185,794,156,777,130,759,109"/>
+<area shape="poly" id="edge9_Node000009_Node000008" title=" " alt="" coords="748,182,740,289,734,288,743,182"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="760,180,790,216,786,219,755,184"/>
+<area shape="poly" id="edge11_Node000010_Node000008" title=" " alt="" coords="797,258,760,295,756,291,794,255"/>
+</map>

@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['1_20create_20a_20new_20local_20virtual_20environment_0',['1\. Create a new local virtual environment',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md13',1,'']]]
+];

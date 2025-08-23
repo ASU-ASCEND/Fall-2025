@@ -1,0 +1,7 @@
+<map id="ENS160Sensor" name="ENS160Sensor">
+<area shape="rect" id="Node000001" title="Implementation of a Sensor for the ENS160." alt="" coords="23,923,148,1120"/>
+<area shape="rect" id="Node000002" href="$classSensor.html" title="Parent class for sensor objects." alt="" coords="5,400,165,875"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,890,88,923,83,923,83,890"/>
+<area shape="rect" id="Node000003" href="$classDevice.html" title="Implements the recovery system for Sensor and Storage objects." alt="" coords="15,5,156,352"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="88,367,88,400,83,400,83,367"/>
+</map>

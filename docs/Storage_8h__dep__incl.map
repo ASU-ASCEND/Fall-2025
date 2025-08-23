@@ -1,0 +1,20 @@
+<map id="Storage.h" name="Storage.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="202,5,279,32"/>
+<area shape="rect" id="Node000002" href="$FlashStorage_8h.html" title=" " alt="" coords="47,80,156,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,42,127,82,125,77,201,37"/>
+<area shape="rect" id="Node000004" href="$main1_8cpp.html" title="Main functions for Core 1, responsible for sending data to storage peripherals." alt="" coords="153,155,234,181"/>
+<area shape="poly" id="edge10_Node000001_Node000004" title=" " alt="" coords="233,47,222,81,200,155,194,154,216,79,228,46"/>
+<area shape="rect" id="Node000005" href="$RadioStorage_8h.html" title=" " alt="" coords="231,80,343,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="259,44,281,78,277,81,254,47"/>
+<area shape="rect" id="Node000007" href="$SDStorage_8h.html" title=" " alt="" coords="367,80,463,107"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="286,36,385,77,383,82,284,41"/>
+<area shape="rect" id="Node000003" href="$FlashStorage_8cpp.html" title=" " alt="" coords="5,155,129,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,122,75,155,71,153,87,120"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="131,114,179,152,176,156,128,119"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="260,119,211,156,208,152,257,114"/>
+<area shape="rect" id="Node000006" href="$RadioStorage_8cpp.html" title=" " alt="" coords="259,155,384,181"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="302,120,318,153,313,155,297,122"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="363,114,233,157,232,151,361,109"/>
+<area shape="rect" id="Node000008" href="$SDStorage_8cpp.html" title=" " alt="" coords="408,155,518,181"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="434,118,457,153,453,156,430,121"/>
+</map>

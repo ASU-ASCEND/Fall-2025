@@ -1,4 +1,4 @@
-# ASU StratoDevils ASCEND Spring 2025
+# ASU StratoDevils ASCEND Fall 2025
 [Doxygen Docs](https://asu-ascend.github.io/Spring-2025/) | [Website](https://asuascend.weebly.com/) | [YouTube](https://www.youtube.com/@ASUStratoDevilsASCEND)
 
 ### Subsystems 
@@ -36,12 +36,7 @@ A Doxygen auto-generated documentation site for GitHub pages is deployed from th
 [Fall 2024 Github](https://github.com/ASU-ASCEND/Fall-2024)
 
 ### FSWv4
-* Packeting (un-packeting)
-  * Data to uint8_t array over String
-* Device Recovery System
-  * Trigger sensor reconnection attempts
-* Prefixing Serial Messages ([Core 1], etc) for sorting
-* Flash System Recovery System
+[Spring 2025 GitHub](https://github.com/ASU-ASCEND/Spring-2025)
 
 ## Data Processing Tools
 

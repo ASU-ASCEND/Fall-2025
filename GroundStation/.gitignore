@@ -1,0 +1,7 @@
+.venv
+session_data
+flash_data
+__pycache__
+build
+dist/error_output.log
+error_output.log

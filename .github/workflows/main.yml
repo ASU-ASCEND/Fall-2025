@@ -61,7 +61,8 @@ jobs:
           sudo apt-get install doxygen 
           sudo apt install graphviz
       - name: Clean old docs
-        run:
+        run: |
+          mkdir -p ../docs
           rm -rf ../docs/*
       - name: Run doxygen on ascendfsw
         run:

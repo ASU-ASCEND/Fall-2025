@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['getcmddata_0',['getCmdData',['../CommandMessage_8h.html#a614e558f381a8d26db49eed9b12fd14f',1,'getCmdData():&#160;CommandMessage.cpp'],['../CommandMessage_8cpp.html#a614e558f381a8d26db49eed9b12fd14f',1,'getCmdData():&#160;CommandMessage.cpp']]],
+  ['getcmddata_0',['getcmddata',['../CommandMessage_8h.html#a614e558f381a8d26db49eed9b12fd14f',1,'getCmdData():&#160;CommandMessage.cpp'],['../CommandMessage_8cpp.html#a614e558f381a8d26db49eed9b12fd14f',1,'getCmdData():&#160;CommandMessage.cpp']]],
   ['getdatacsv_1',['getDataCSV',['../classSensor.html#a2d5ecda6a046ddba40d0e37921226d2f',1,'Sensor']]],
   ['getdatapacket_2',['getDataPacket',['../classSensor.html#a1d128dc295e634de6506da5cbb716b64',1,'Sensor']]],
   ['getdevicename_3',['getDeviceName',['../classDevice.html#abbc7184e7fb286208c3b30357cf53f88',1,'Device']]],

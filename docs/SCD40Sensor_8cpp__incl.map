@@ -1,26 +1,26 @@
 <map id="SCD40Sensor.cpp" name="SCD40Sensor.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="327,5,457,32"/>
-<area shape="rect" id="Node000002" href="$SCD40Sensor_8h.html" title=" " alt="" coords="334,80,450,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="395,33,395,64,389,64,389,33"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,131,181"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="336,110,140,153,139,148,335,105"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="155,155,296,181"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="364,110,269,151,267,146,362,105"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="320,155,379,181"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="387,109,367,143,362,140,382,106"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="402,155,467,181"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="402,106,422,140,417,143,397,109"/>
-<area shape="rect" id="Node000007" href="$PayloadConfig_8h.html" title="Central location for pinout and config defines." alt="" coords="491,155,608,181"/>
-<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="421,105,509,145,507,150,418,110"/>
-<area shape="rect" id="Node000008" href="$Sensor_8h.html" title=" " alt="" coords="633,155,706,181"/>
-<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="441,105,619,151,617,156,440,110"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="619,379,696,405"/>
-<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="657,184,638,204,624,230,618,266,623,302,633,336,645,364,640,366,628,338,617,303,613,266,619,228,634,201,653,180"/>
-<area shape="rect" id="Node000010" href="$Device_8h.html" title=" " alt="" coords="633,229,706,256"/>
-<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="672,182,672,214,667,214,667,182"/>
-<area shape="rect" id="Node000011" href="$Logger_8h.html" title=" " alt="" coords="695,304,766,331"/>
-<area shape="poly" id="edge13_Node000008_Node000011" title=" " alt="" coords="685,180,704,201,721,228,730,259,733,288,728,289,725,260,716,230,700,204,681,183"/>
-<area shape="poly" id="edge10_Node000010_Node000009" title=" " alt="" coords="671,257,662,363,657,363,666,256"/>
-<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="682,255,712,290,708,294,678,258"/>
-<area shape="poly" id="edge12_Node000011_Node000009" title=" " alt="" coords="720,333,683,369,679,366,716,329"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="351,5,486,31"/>
+<area shape="rect" id="Node000002" href="$SCD40Sensor_8h.html" title=" " alt="" coords="359,79,479,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="421,31,421,65,416,65,416,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,141,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="364,107,143,152,142,147,363,101"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="165,152,317,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="391,106,284,149,282,144,389,102"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="341,152,405,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="413,106,390,142,386,139,409,103"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="430,152,501,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="429,103,452,139,448,142,424,106"/>
+<area shape="rect" id="Node000007" href="$PayloadConfig_8h.html" title="Central location for pinout and config defines." alt="" coords="525,152,651,177"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="447,102,549,144,547,149,445,106"/>
+<area shape="rect" id="Node000008" href="$Sensor_8h.html" title=" " alt="" coords="676,152,753,177"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="467,101,663,148,662,154,466,107"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="659,372,743,397"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="702,179,682,200,667,226,661,262,666,298,677,332,690,359,685,361,672,334,661,299,655,262,661,224,678,196,698,176"/>
+<area shape="rect" id="Node000010" href="$Device_8h.html" title=" " alt="" coords="675,225,754,251"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="717,178,717,212,712,212,712,178"/>
+<area shape="rect" id="Node000011" href="$Logger_8h.html" title=" " alt="" coords="739,299,816,324"/>
+<area shape="poly" id="edge13_Node000008_Node000011" title=" " alt="" coords="731,176,751,197,769,224,778,255,781,285,775,285,773,256,764,226,747,200,727,179"/>
+<area shape="poly" id="edge10_Node000010_Node000009" title=" " alt="" coords="716,251,706,359,701,358,711,251"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="727,249,760,286,756,290,723,253"/>
+<area shape="poly" id="edge12_Node000011_Node000009" title=" " alt="" coords="767,326,726,364,722,361,763,322"/>
 </map>

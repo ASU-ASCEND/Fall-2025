@@ -1,11 +1,11 @@
 <map id="Device" name="Device">
-<area shape="rect" id="Node000001" title="Implements the recovery system for Sensor and Storage objects." alt="" coords="159,155,300,395"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,99,75"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,74,65,102,77,129,109,173,148,210,144,214,105,176,72,132,60,104,53,75"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="149,5,176,75"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,74,163,102,167,130,169,138,164,139,162,131,158,102,158,74"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="277,5,315,75"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="289,75,271,139,266,138,284,74"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="357,5,403,75"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="368,76,338,132,312,172,308,169,334,129,363,73"/>
+<area shape="rect" id="Node000001" title="Implements the recovery system for Sensor and Storage objects." alt="" coords="175,148,339,373"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,111,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,70,71,97,83,123,119,165,163,201,159,205,116,169,78,125,66,99,59,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="167,5,197,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,71,182,97,186,123,188,132,183,133,181,125,177,97,176,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="310,5,353,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="323,72,302,134,297,132,318,70"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="401,5,453,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="414,72,383,126,352,165,347,162,378,122,410,70"/>
 </map>

@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['c_20or_20the_20software_20crashes_0',['If you do use CRTL+C or the software crashes',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md6',1,'']]],
+  ['c_20or_20the_20software_20crashes_0',['If you do use CRTL+C or the software crashes',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md6',1,'']]],
   ['cad_20models_1',['CAD Models',['../index.html#autotoc_md45',1,'']]],
   ['calibrate_2',['calibrate',['../classLSM9DS1Sensor.html#a108078a5fb9ce0e02d01bf5c664cf1b2',1,'LSM9DS1Sensor::calibrate()'],['../classPCF8523Sensor.html#ad82965660e65abcbfd781990addc4a47',1,'PCF8523Sensor::calibrate()']]],
-  ['changes_20for_20this_20iteration_3',['Changes for this iteration',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2Packet__Definition.html#autotoc_md22',1,'']]],
+  ['changes_20for_20this_20iteration_3',['Changes for this iteration',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2Packet__Definition.html#autotoc_md22',1,'']]],
   ['checkfreespacewarnings_4',['checkFreeSpaceWarnings',['../classFlashStorage.html#a60c834c7f8a10ad7ea4a26d01aefa4ea',1,'FlashStorage']]],
-  ['checksum_5',['Checksum',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2Packet__Definition.html#autotoc_md29',1,'']]],
-  ['closing_20the_20ground_20station_6',['Closing the ground station',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md5',1,'']]],
+  ['checksum_5',['Checksum',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2Packet__Definition.html#autotoc_md29',1,'']]],
+  ['closing_20the_20ground_20station_6',['Closing the ground station',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md5',1,'']]],
   ['cmd_5fdata_5fmutex_7',['cmd_data_mutex',['../CommandMessage_8h.html#a15459fc913feb66d90bd6fb848c35092',1,'cmd_data_mutex:&#160;CommandMessage.cpp'],['../CommandMessage_8cpp.html#a15459fc913feb66d90bd6fb848c35092',1,'cmd_data_mutex:&#160;CommandMessage.cpp']]],
   ['cmd_5fdelete_8',['CMD_DELETE',['../CommandMessage_8h.html#a21e038f5b8958e203d28bc4f18472352a44f7b12c33496991aba2ce40f34e18be',1,'CommandMessage.h']]],
   ['cmd_5fdownload_9',['CMD_DOWNLOAD',['../CommandMessage_8h.html#a21e038f5b8958e203d28bc4f18472352ab4b81de3deb1ea7fcc043e2ae34ca91c',1,'CommandMessage.h']]],
@@ -19,10 +19,10 @@ var searchData=
   ['commandmessage_2eh_16',['CommandMessage.h',['../CommandMessage_8h.html',1,'']]],
   ['commandtype_17',['CommandType',['../CommandMessage_8h.html#a21e038f5b8958e203d28bc4f18472352',1,'CommandMessage.h']]],
   ['core1_5fseparate_5fstack_18',['core1_separate_stack',['../main1_8cpp.html#a59420dac7a6861b8e8b1baa65162c3d5',1,'main1.cpp']]],
-  ['crashes_19',['If you do use CRTL+C or the software crashes',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md6',1,'']]],
-  ['create_20a_20new_20local_20virtual_20environment_20',['1\. Create a new local virtual environment',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md13',1,'']]],
+  ['crashes_19',['If you do use CRTL+C or the software crashes',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md6',1,'']]],
+  ['create_20a_20new_20local_20virtual_20environment_20',['1\. Create a new local virtual environment',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md13',1,'']]],
   ['critical_5ffail_21',['CRITICAL_FAIL',['../ErrorDisplay_8h.html#a2c3e4bb40f36b262a5214e2da2bca9c5a0b8cbe4a1604b3c87fa3207a2a38037e',1,'ErrorDisplay.h']]],
-  ['crtl_20c_20or_20the_20software_20crashes_22',['If you do use CRTL+C or the software crashes',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md6',1,'']]],
+  ['crtl_20c_20or_20the_20software_20crashes_22',['If you do use CRTL+C or the software crashes',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md6',1,'']]],
   ['csv_5fheader_23',['csv_header',['../classSensor.html#a2ec9679548d0d3c876995aa3de551293',1,'Sensor']]],
-  ['curl_20tt_24',['curl tt',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md11',1,'GET Example Using &lt;tt&gt;curl&lt;/tt&gt;'],['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md9',1,'POST Example Using &lt;tt&gt;curl&lt;/tt&gt;']]]
+  ['curl_20tt_24',['curl tt',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md11',1,'GET Example Using &lt;tt&gt;curl&lt;/tt&gt;'],['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md9',1,'POST Example Using &lt;tt&gt;curl&lt;/tt&gt;']]]
 ];

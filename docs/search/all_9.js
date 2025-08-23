@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['get_20example_20using_20tt_20curl_20tt_0',['GET Example Using &lt;tt&gt;curl&lt;/tt&gt;',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md11',1,'']]],
-  ['getcmddata_1',['getCmdData',['../CommandMessage_8h.html#a614e558f381a8d26db49eed9b12fd14f',1,'getCmdData():&#160;CommandMessage.cpp'],['../CommandMessage_8cpp.html#a614e558f381a8d26db49eed9b12fd14f',1,'getCmdData():&#160;CommandMessage.cpp']]],
+  ['get_20example_20using_20tt_20curl_20tt_0',['GET Example Using &lt;tt&gt;curl&lt;/tt&gt;',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md11',1,'']]],
+  ['getcmddata_1',['getcmddata',['../CommandMessage_8cpp.html#a614e558f381a8d26db49eed9b12fd14f',1,'getCmdData():&#160;CommandMessage.cpp'],['../CommandMessage_8h.html#a614e558f381a8d26db49eed9b12fd14f',1,'getCmdData():&#160;CommandMessage.cpp']]],
   ['getdatacsv_2',['getDataCSV',['../classSensor.html#a2d5ecda6a046ddba40d0e37921226d2f',1,'Sensor']]],
   ['getdatapacket_3',['getDataPacket',['../classSensor.html#a1d128dc295e634de6506da5cbb716b64',1,'Sensor']]],
   ['getdevicename_4',['getDeviceName',['../classDevice.html#abbc7184e7fb286208c3b30357cf53f88',1,'Device']]],
@@ -16,13 +16,11 @@ var searchData=
   ['gps_13',['GPS',['../classMTK3339Sensor.html#a2babd1af38d05363cc94a203002664e3',1,'MTK3339Sensor']]],
   ['gps_5fi2c_14',['GPS_I2C',['../PayloadConfig_8h.html#a2d26ccf6ba15b11e8128e20a87d65326',1,'PayloadConfig.h']]],
   ['gps_5fsensor_15',['gps_sensor',['../main_8cpp.html#a6fc3a17157f10274d10618f69c394766',1,'main.cpp']]],
-  ['ground_20station_16',['Some Notes on Using the Ground Station',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md2',1,'']]],
-  ['ground_20station_17',['Closing the ground station',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md5',1,'']]],
-  ['ground_20station_20data_20flow_18',['Ground Station Data Flow',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md1',1,'']]],
-  ['ground_20station_20software_19',['Ground Station Software',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2GroundSoftware.html',1,'']]],
-  ['ground_20station_20software_20',['When done using the ground station software',['../md_C_1_2Users_2tyler_2Documents_2ASCEND_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md18',1,'']]],
-  ['groundsoftware_2emd_21',['GroundSoftware.md',['../GroundSoftware_8md.html',1,'']]],
-  ['groundstation_20gui_22',['Groundstation GUI',['../index.html#autotoc_md40',1,'']]],
-  ['gui_23',['Groundstation GUI',['../index.html#autotoc_md40',1,'']]],
-  ['gyro_5foffsets_24',['gyro_offsets',['../classLSM9DS1Sensor.html#aad1c0e961086e5c538a526ed9a660951',1,'LSM9DS1Sensor']]]
+  ['ground_20station_16',['ground station',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md5',1,'Closing the ground station'],['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md2',1,'Some Notes on Using the Ground Station']]],
+  ['ground_20station_20data_20flow_17',['Ground Station Data Flow',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md1',1,'']]],
+  ['ground_20station_20software_18',['ground station software',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html',1,'Ground Station Software'],['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md18',1,'When done using the ground station software']]],
+  ['groundsoftware_2emd_19',['GroundSoftware.md',['../GroundSoftware_8md.html',1,'']]],
+  ['groundstation_20gui_20',['Groundstation GUI',['../index.html#autotoc_md40',1,'']]],
+  ['gui_21',['Groundstation GUI',['../index.html#autotoc_md40',1,'']]],
+  ['gyro_5foffsets_22',['gyro_offsets',['../classLSM9DS1Sensor.html#aad1c0e961086e5c538a526ed9a660951',1,'LSM9DS1Sensor']]]
 ];

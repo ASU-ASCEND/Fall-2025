@@ -1,20 +1,20 @@
 <map id="SGP30Sensor" name="SGP30Sensor">
-<area shape="rect" id="Node000001" title="Implementation of a Sensor for the SGP Air Quality sensor." alt="" coords="361,897,487,1073"/>
-<area shape="rect" id="Node000002" href="$classSensor.html" title="Parent class for sensor objects." alt="" coords="265,444,425,833"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="395,847,407,897,402,898,390,848"/>
-<area shape="rect" id="Node000003" href="$classDevice.html" title="Implements the recovery system for Sensor and Storage objects." alt="" coords="187,155,328,395"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="292,409,301,443,296,445,287,410"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,99,75"/>
-<area shape="poly" id="edge7_Node000002_Node000004" title=" " alt="" coords="49,75,42,137,41,219,50,308,62,352,78,393,113,449,157,499,205,543,253,579,250,583,202,547,153,503,108,452,73,396,57,354,45,309,35,219,37,137,44,74"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="72,73,110,129,135,153,177,192,173,196,131,157,106,132,68,76"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="468,5,495,75"/>
-<area shape="poly" id="edge9_Node000002_Node000005" title=" " alt="" coords="497,57,508,76,517,98,519,115,517,131,503,210,483,288,434,436,429,435,478,287,498,208,512,130,514,115,512,99,504,78,492,60"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="470,53,415,96,349,157,341,165,337,161,345,153,412,92,467,49"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="165,5,203,75"/>
-<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="191,74,203,130,205,138,200,139,198,131,186,75"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="298,5,345,75"/>
-<area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="347,70,360,98,362,114,360,131,354,427,349,427,355,131,356,114,355,99,342,72"/>
-<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="300,62,284,79,272,100,260,138,255,137,267,98,280,76,296,58"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="449,604,556,673"/>
-<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="498,674,450,881,445,880,493,672"/>
+<area shape="rect" id="Node000001" title="Implementation of a Sensor for the SGP Air Quality sensor." alt="" coords="403,851,545,1016"/>
+<area shape="rect" id="Node000002" href="$classSensor.html" title="Parent class for sensor objects." alt="" coords="300,423,477,788"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="442,801,455,850,450,851,437,802"/>
+<area shape="rect" id="Node000003" href="$classDevice.html" title="Implements the recovery system for Sensor and Storage objects." alt="" coords="209,148,373,373"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="329,386,340,422,334,423,324,387"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,111,71"/>
+<area shape="poly" id="edge7_Node000002_Node000004" title=" " alt="" coords="54,71,47,130,44,208,47,250,53,292,65,333,82,372,100,402,123,430,174,480,231,521,287,555,284,559,228,526,171,484,119,434,96,405,77,375,60,335,48,293,41,251,39,208,41,130,49,70"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="77,69,95,97,117,122,137,135,159,146,198,175,195,179,157,150,135,139,114,126,90,100,72,72"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="520,5,551,71"/>
+<area shape="poly" id="edge9_Node000002_Node000005" title=" " alt="" coords="553,50,570,69,585,94,587,109,585,125,567,201,544,278,487,420,482,418,539,276,562,200,579,123,582,109,579,96,566,72,549,54"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="521,52,464,93,394,150,387,157,384,153,391,146,461,89,518,48"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="182,5,225,71"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="211,70,225,123,228,132,223,134,219,125,206,72"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="335,5,387,71"/>
+<area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="389,65,406,94,408,109,406,124,399,406,393,406,401,124,402,109,401,96,384,67"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="336,58,318,75,303,96,291,133,286,131,298,93,314,71,333,54"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="502,573,617,638"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="554,639,502,835,497,834,548,638"/>
 </map>

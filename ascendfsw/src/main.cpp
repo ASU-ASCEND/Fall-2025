@@ -185,7 +185,7 @@ void loop() {
     // log_data(csv_row);
     log_data_raw(packet, packet_len);
 
-// send data to core1
+    // send data to core1
     // queue_add_blocking(&qt, packet);
     queue_try_add(&qt, packet);
 

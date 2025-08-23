@@ -135,26 +135,6 @@ void setup() {
     }
   }
 
-#if 0  // header stuff
-  // build csv header
-  String header = "Header,Millis,";
-  for (int i = 0; i < sensors_len; i++) {
-    if (sensors_verify[i]) {
-      header += sensors[i]->getSensorCSVHeader();
-    }
-  }
-  log_data(header);
-
-// store header
-// storeData(header);
-#if FLASH_SPI1 == 0
-  flash_storage.store(header);
-#endif
-
-  // send header to core1
-  queue_add_blocking(&qt, header.c_str());
-#endif
-
   pinMode(ON_BOARD_LED_PIN, OUTPUT);
   log_core("Setup done.");
 }
@@ -200,21 +180,14 @@ void loop() {
     // for (int i = 0; i < QT_ENTRY_SIZE; i++) packet[i] = 0; // useful for
     // debugging
     uint16_t packet_len = readSensorDataPacket(packet);
-#if STORING_PACKETS == false
-    String csv_row = decodePacket(packet);
-#endif
 
     // print csv row
     // log_data(csv_row);
     log_data_raw(packet, packet_len);
 
-// send data to core1
-#if STORING_PACKETS
+    // send data to core1
     // queue_add_blocking(&qt, packet);
     queue_try_add(&qt, packet);
-#else
-    queue_add_blocking(&qt, csv_row.c_str());
-#endif
 
     delay(500);  // remove before flight
   }
@@ -307,42 +280,6 @@ void handleCommand() {
 
   setCmdData(cmd_data);
 }
-
-#if 0  // part of the old verification system 
-/**
- * @brief Verifies each sensor by calling each verify() function
- *
- * @return int The number of verified sensors
- */
-int verifySensors() {
-  int count = 0;
-  uint32_t bit_array = 0b11;  // start with a bit for header and for millis
-                              // (they will always be there)
-  for (int i = 0; i < sensors_len; i++) {
-    sensors_verify[i] = sensors[i]->verify();
-    if (sensors_verify[i]) {
-      count++;
-      bit_array =
-          (bit_array << 1) | 0b1;  // if the sensor is verified shift a 1 in
-    } else {
-      bit_array = (bit_array << 1);  // otherwise shift a 0 in
-    }
-  }
-  header_condensed =
-      String(bit_array, HEX);  // translate it to hex to condense it for the csv
-
-  log_core("Pin Verification Results:");
-  for (int i = 0; i < sensors_len; i++) {
-    log_core((sensors[i]->getDeviceName()) + ": " +
-             (sensors_verify[i]
-                  ? "Successful in Communication"
-                  : "Failure in Communication (check wirings and/ or pin "
-                    "definitions)"));
-  }
-  log_core("");
-  return count;
-}
-#endif
 
 /**
  * @brief Reads sensor data into a packet byte array

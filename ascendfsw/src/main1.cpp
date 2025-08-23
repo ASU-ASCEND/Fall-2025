@@ -75,11 +75,7 @@ int it2 = 0;
  *
  */
 void real_loop1() {
-#if STORING_PACKETS
   uint8_t received_data[QT_ENTRY_SIZE];
-#else
-  char received_data[QT_ENTRY_SIZE];
-#endif
 
   // toggle heartbeat
   it2++;
@@ -92,23 +88,15 @@ void real_loop1() {
     // Retrieve sensor data from queue
     queue_remove_blocking(&qt, received_data);
 
-#if STORING_PACKETS
     unsigned long timestamp;
     memcpy(
         &timestamp,
         received_data + sizeof(uint32_t) + sizeof(uint32_t) + sizeof(uint16_t),
         sizeof(timestamp));
     log_core("Packet Received with Millis = " + String(timestamp));
-#else
-    log_core("Received: " + String(received_data));
-#endif
 
-// store csv row
-#if STORING_PACKETS
+    // store csv row
     storeDataPacket(received_data);
-#else
-    storeData(String(received_data));
-#endif
   }
 
   // Determine if a command has been received

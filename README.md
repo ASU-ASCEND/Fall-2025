@@ -50,7 +50,7 @@ A Doxygen auto-generated documentation site for GitHub pages is deployed from th
   * Data cleaning and [Skew-T Log-P Diagram](https://en.wikipedia.org/wiki/Skew-T_log-P_diagram) using [MetPy](https://unidata.github.io/MetPy/latest/)
 
 ### Groundstation GUI
-[/GroundStation/Groundstation](https://github.com/ASU-ASCEND/Spring-2025/tree/main/GroundStation/Groundstation)
+[/Groundstation](https://github.com/ASU-ASCEND/Spring-2025/tree/main/Groundstation)
 #### Backend
 * Serial Connection 
 * Serial Sorter 

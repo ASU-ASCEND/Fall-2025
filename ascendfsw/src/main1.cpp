@@ -97,7 +97,6 @@ void real_loop1() {
 
     // store csv row
     storeDataPacket(received_data);
-
   }
 
   // Determine if a command has been received

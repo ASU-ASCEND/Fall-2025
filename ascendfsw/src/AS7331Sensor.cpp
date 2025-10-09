@@ -41,9 +41,9 @@ bool AS7331Sensor::verify() {
 String AS7331Sensor::readData() {
   myUVSensor.readAllUV();
 
-  float uva = myUVSensor.getUVA();
-  float uvb = myUVSensor.getUVB();
-  float uvc = myUVSensor.getUVC();
+  uint16_t uva = myUVSensor.getUVA();
+  uint16_t uvb = myUVSensor.getUVB();
+  uint16_t uvc = myUVSensor.getUVC();
 
   return String(uva) + "," + String(uvb) + "," + String(uvc) + ",";
 }
@@ -56,18 +56,26 @@ String AS7331Sensor::readData() {
 void AS7331Sensor::readDataPacket(uint8_t*& packet) {
   myUVSensor.readAllUV();
 
-  float uva = myUVSensor.getUVA();
-  float uvb = myUVSensor.getUVB();
-  float uvc = myUVSensor.getUVC();
+  uint16_t uva16 = static_cast<uint16_t>(myUVSensor.getUVA());
+  uint16_t uvb16 = static_cast<uint16_t>(myUVSensor.getUVB());
+  uint16_t uvc16 = static_cast<uint16_t>(myUVSensor.getUVC());
 
-  std::copy((uint8_t*)(&uva), (uint8_t*)(&uva) + sizeof(uva), packet);
-  packet += sizeof(uva);
-  std::copy((uint8_t*)(&uvb), (uint8_t*)(&uvb) + sizeof(uvb), packet);
-  packet += sizeof(uvb);
-  std::copy((uint8_t*)(&uvc), (uint8_t*)(&uvc) + sizeof(uvc), packet);
-  packet += sizeof(uvc);
+  
+    std::copy(reinterpret_cast<uint8_t*>(&uva16),
+              reinterpret_cast<uint8_t*>(&uva16) + sizeof(uva16),
+              packet);
+    packet += sizeof(uva16);
+
+    std::copy(reinterpret_cast<uint8_t*>(&uvb16),
+              reinterpret_cast<uint8_t*>(&uvb16) + sizeof(uvb16),
+              packet);
+    packet += sizeof(uvb16);
+
+    std::copy(reinterpret_cast<uint8_t*>(&uvc16),
+              reinterpret_cast<uint8_t*>(&uvc16) + sizeof(uvc16),
+              packet);
+    packet += sizeof(uvc16);
 }
-
 /**
  * @brief Decodes a packet into a CSV string
  *
@@ -75,13 +83,16 @@ void AS7331Sensor::readDataPacket(uint8_t*& packet) {
  * @return String CSV line - UVA, UVB, UVC,
  */
 String AS7331Sensor::decodeToCSV(uint8_t*& packet) {
-  float uva, uvb, uvc;
-  std::copy(packet, packet + sizeof(uva), (uint8_t*)(&uva));
-  packet += sizeof(uva);
-  std::copy(packet, packet + sizeof(uvb), (uint8_t*)(&uvb));
-  packet += sizeof(uvb);
-  std::copy(packet, packet + sizeof(uvc), (uint8_t*)(&uvc));
-  packet += sizeof(uvc);
+    uint16_t uva16, uvb16, uvc16;
+  std::copy(packet, packet + sizeof(uva16), reinterpret_cast<uint8_t*>(&uva16));
+  packet += sizeof(uva16);
 
-  return String(uva) + "," + String(uvb) + "," + String(uvc) + ",";
+  std::copy(packet, packet + sizeof(uvb16), reinterpret_cast<uint8_t*>(&uvb16));
+  packet += sizeof(uvb16);
+
+  std::copy(packet, packet + sizeof(uvc16), reinterpret_cast<uint8_t*>(&uvc16));
+  packet += sizeof(uvc16);
+
+
+  return String(uva16) + "," + String(uvb16) + "," + String(uvc16) + ",";
 }

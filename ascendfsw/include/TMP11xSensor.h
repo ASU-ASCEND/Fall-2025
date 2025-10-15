@@ -11,15 +11,15 @@
  * @brief Implementation of a Sensor for the TMP117
  *
  */
-class TMP117Sensor : public Sensor {
+class TMP11xSensor : public Sensor {
  private:
   TMP117 tmp;
   float tempC;
   TwoWire* i2c_bus;
 
  public:
-  TMP117Sensor(TwoWire* i2c_bus = &Wire);
-  TMP117Sensor(unsigned long minium_period, TwoWire* i2c_bus = &Wire);
+  TMP11xSensor(TwoWire* i2c_bus = &Wire);
+  TMP11xSensor(unsigned long minium_period, TwoWire* i2c_bus = &Wire);
   bool verify();
   String readData();
 

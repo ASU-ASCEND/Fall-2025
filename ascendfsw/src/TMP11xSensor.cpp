@@ -1,18 +1,18 @@
-#include "TMP117Sensor.h"
+#include "TMP11xSensor.h"
 
 /**
  * @brief Construct a new TMP117Sensor object with default minimum_period of 0
  * ms.
  *
  */
-TMP117Sensor::TMP117Sensor(TwoWire* i2c_bus) : TMP117Sensor(0, i2c_bus) {}
+TMP11xSensor::TMP11xSensor(TwoWire* i2c_bus) : TMP11xSensor(0, i2c_bus) {}
 
 /**
  * @brief Construct a new TMP117Sensor object.
  *
  * @param minimum_period Minimum time to wait between readings in ms
  */
-TMP117Sensor::TMP117Sensor(unsigned long minimum_period, TwoWire* i2c_bus)
+TMP11xSensor::TMP11xSensor(unsigned long minimum_period, TwoWire* i2c_bus)
     : Sensor("TMP117", "TMP117Temp(C)", 1, minimum_period) {
   this->tempC = 0.0;
   this->i2c_bus = i2c_bus;
@@ -25,7 +25,7 @@ TMP117Sensor::TMP117Sensor(unsigned long minimum_period, TwoWire* i2c_bus)
  * @return true if sensor is connected and working.
  * @return false if sensor is not.
  */
-bool TMP117Sensor::verify() {
+bool TMP11xSensor::verify() {
   this->i2c_bus->begin();
   return tmp.begin(TMP117_I2C_ADDR, *(this->i2c_bus));
 }
@@ -35,7 +35,7 @@ bool TMP117Sensor::verify() {
  *
  * @return String Temp (C) in csv format.
  */
-String TMP117Sensor::readData() {
+String TMP11xSensor::readData() {
   this->tempC = (float)tmp.readTempC();
 
   return String(this->tempC) + ",";
@@ -47,7 +47,7 @@ String TMP117Sensor::readData() {
  *
  * @param packet Pointer to the packet byte array.
  */
-void TMP117Sensor::readDataPacket(uint8_t*& packet) {
+void TMP11xSensor::readDataPacket(uint8_t*& packet) {
   this->tempC = (float)tmp.readTempC();
 
   std::copy((uint8_t*)(&tempC), (uint8_t*)(&tempC) + sizeof(tempC), packet);
@@ -61,7 +61,7 @@ void TMP117Sensor::readDataPacket(uint8_t*& packet) {
  * @param packet  Pointer to packet byte array that will be decoded.
  * @return String Decoded sensor data in CSV format.
  */
-String TMP117Sensor::decodeToCSV(uint8_t*& packet) {
+String TMP11xSensor::decodeToCSV(uint8_t*& packet) {
   float tempC;
   memcpy(&tempC, packet, sizeof(float));
 
@@ -75,4 +75,4 @@ String TMP117Sensor::decodeToCSV(uint8_t*& packet) {
  *
  * @return float Last recorded temperature in Celsius
  */
-float TMP117Sensor::getTempC() { return this->tempC; }
+float TMP11xSensor::getTempC() { return this->tempC; }

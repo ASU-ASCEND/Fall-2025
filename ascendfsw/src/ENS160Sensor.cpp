@@ -1,12 +1,9 @@
 #include "ENS160Sensor.h"
 
-#include "SHTC3Sensor.h"
-#include "TMP117Sensor.h"
+#include "TMP11xSensor.h"
 
-extern TMP117Sensor tmp_sensor;
-extern SHTC3Sensor shtc_sensor;
-extern TMP117Sensor tmp_sensor_out;
-extern SHTC3Sensor shtc_sensor_out;
+extern TMP11xSensor tmp_sensor;
+extern TMP11xSensor tmp_sensor_out;
 
 /**
  * @brief Construct a new ENS160 Sensor object with default minimum_period of 0
@@ -62,19 +59,14 @@ String ENS160Sensor::readData() {
   // take until the next read which should be more than enough time, make sure
   // that tmp117 and shtc3
 
-  TMP117Sensor* tmp_options[2];
-  SHTC3Sensor* shtc_options[2];
+  TMP11xSensor* tmp_options[2];
 
   if (this->i2c_bus == &Wire) {
     tmp_options[0] = &tmp_sensor;
     tmp_options[1] = &tmp_sensor_out;
-    shtc_options[0] = &shtc_sensor;
-    shtc_options[1] = &shtc_sensor_out;
   } else {
     tmp_options[0] = &tmp_sensor_out;
     tmp_options[1] = &tmp_sensor;
-    shtc_options[0] = &shtc_sensor_out;
-    shtc_options[1] = &shtc_sensor;
   }
 
   for (int i = 0; i < 2; i++) {

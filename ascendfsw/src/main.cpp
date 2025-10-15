@@ -25,9 +25,7 @@
 #include "MTK3339Sensor.h"
 #include "OzoneSensor.h"
 #include "PCF8523Sensor.h"
-#include "SCD40Sensor.h"
-#include "SHTC3Sensor.h"
-#include "TMP117Sensor.h"
+#include "TMP11xSensor.h"
 #include "TempSensor.h"
 
 // helper function definitions
@@ -49,13 +47,13 @@ TempSensor      temp_sensor       (1000);
 MTK3339Sensor   gps_sensor        (2000);
 ICM20948Sensor  icm_sensor        (0);
 PCF8523Sensor   rtc_sensor        (1000);
-TMP117Sensor    tmp_sensor        (500,   &Wire); 
+TMP11xSensor    tmp_sensor        (500,   &Wire); 
 
 // StratoSense
 AS7331Sensor    uv_sensor_out     (500, UV_I2C_ADDR);
 ENS160Sensor    ens160_sensor_out (500,   &Wire1);
 BMP390Sensor    bmp_sensor_out    (500,   &Wire1);
-TMP117Sensor    tmp_sensor_out    (500,   &Wire1); 
+TMP11xSensor    tmp_sensor_out    (500,   &Wire1); 
 OzoneSensor     ozone_sensor      (500);
 // clang-format on
 

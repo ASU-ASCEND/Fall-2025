@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['flash_5fcs_5fpin_0',['FLASH_CS_PIN',['../PayloadConfig_8h.html#aef52395a58c8191f3d4a21a6d1d950c3',1,'PayloadConfig.h']]],
-  ['flash_5fspi1_1',['FLASH_SPI1',['../PayloadConfig_8h.html#ac8f8e926c1f037a7bc4fe32cedabd9b4',1,'PayloadConfig.h']]]
+  ['error_5fpin_5f0_0',['ERROR_PIN_0',['../PayloadConfig_8h.html#a48a86006eb436b950e5277fdf8a3ae53',1,'PayloadConfig.h']]],
+  ['error_5fpin_5f1_1',['ERROR_PIN_1',['../PayloadConfig_8h.html#a5d6e22e2c3ab3c12e8cd61594815925a',1,'PayloadConfig.h']]],
+  ['error_5fpin_5f2_2',['ERROR_PIN_2',['../PayloadConfig_8h.html#af230e937fbf21c24dab2e1c834330a52',1,'PayloadConfig.h']]]
 ];

@@ -1,7 +1,7 @@
 <map id="BMP390Sensor" name="BMP390Sensor">
-<area shape="rect" id="Node000001" title="Implementation of a Sensor for BMP384 Pressure and Temperature sensor." alt="" coords="406,851,547,1016"/>
+<area shape="rect" id="Node000001" title="Implementation of a Sensor for BMP384 Pressure and Temperature sensor." alt="" coords="495,851,637,1016"/>
 <area shape="rect" id="Node000002" href="$classSensor.html" title="Parent class for sensor objects." alt="" coords="300,423,477,788"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="444,801,457,850,452,851,439,802"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="486,780,524,849,519,852,482,783"/>
 <area shape="rect" id="Node000003" href="$classDevice.html" title="Implements the recovery system for Sensor and Storage objects." alt="" coords="209,148,373,373"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="329,386,340,422,334,423,324,387"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="5,5,111,71"/>
@@ -16,5 +16,7 @@
 <area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="389,65,406,94,408,109,406,124,399,406,393,406,401,124,402,109,401,96,384,67"/>
 <area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="336,58,318,75,303,96,291,133,286,131,298,93,314,71,333,54"/>
 <area shape="rect" id="Node000008" title=" " alt="" coords="502,573,630,638"/>
-<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="560,639,506,835,501,834,555,638"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="569,638,569,834,563,834,563,638"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="654,573,734,638"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="690,639,672,708,644,789,623,837,618,835,640,787,666,707,684,637"/>
 </map>

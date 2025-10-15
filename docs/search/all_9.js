@@ -10,7 +10,7 @@ var searchData=
   ['getrelhum_7',['getRelHum',['../classSHTC3Sensor.html#ae7355733a5c84c5812b69a88285610b8',1,'SHTC3Sensor']]],
   ['getsensorcsvheader_8',['getSensorCSVHeader',['../classSensor.html#a7a1b80d366c585dd9c85992f0ca96d39',1,'Sensor']]],
   ['getstatus_9',['getStatus',['../classFlashStorage.html#a318825f36239ed4e7c5bf345c6f95366',1,'FlashStorage']]],
-  ['gettempc_10',['getTempC',['../classTMP117Sensor.html#a8fcbf5633c60d32b43ea87d89e781e39',1,'TMP117Sensor']]],
+  ['gettempc_10',['getTempC',['../classTMP11xSensor.html#ac497502dabe146e07e8ae249d09ab02f',1,'TMP11xSensor']]],
   ['getverified_11',['getVerified',['../classDevice.html#a030b016bedb9a917634091199a946c94',1,'Device']]],
   ['github_20subfolders_12',['GitHub Subfolders',['../index.html#autotoc_md33',1,'']]],
   ['gps_13',['GPS',['../classMTK3339Sensor.html#a2babd1af38d05363cc94a203002664e3',1,'MTK3339Sensor']]],
@@ -21,6 +21,5 @@ var searchData=
   ['ground_20station_20software_18',['ground station software',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html',1,'Ground Station Software'],['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md18',1,'When done using the ground station software']]],
   ['groundsoftware_2emd_19',['GroundSoftware.md',['../GroundSoftware_8md.html',1,'']]],
   ['groundstation_20gui_20',['Groundstation GUI',['../index.html#autotoc_md40',1,'']]],
-  ['gui_21',['Groundstation GUI',['../index.html#autotoc_md40',1,'']]],
-  ['gyro_5foffsets_22',['gyro_offsets',['../classLSM9DS1Sensor.html#aad1c0e961086e5c538a526ed9a660951',1,'LSM9DS1Sensor']]]
+  ['gui_21',['Groundstation GUI',['../index.html#autotoc_md40',1,'']]]
 ];

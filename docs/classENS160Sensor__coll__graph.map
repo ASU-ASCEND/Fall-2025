@@ -1,7 +1,7 @@
 <map id="ENS160Sensor" name="ENS160Sensor">
-<area shape="rect" id="Node000001" title="Implementation of a Sensor for the ENS160." alt="" coords="497,851,638,1016"/>
+<area shape="rect" id="Node000001" title="Implementation of a Sensor for the ENS160." alt="" coords="487,851,647,1036"/>
 <area shape="rect" id="Node000002" href="$classSensor.html" title="Parent class for sensor objects." alt="" coords="300,423,477,788"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="486,779,525,849,520,852,482,781"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="486,784,521,849,516,852,481,786"/>
 <area shape="rect" id="Node000003" href="$classDevice.html" title="Implements the recovery system for Sensor and Storage objects." alt="" coords="209,148,373,373"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="329,386,340,422,334,423,324,387"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="5,5,111,71"/>
@@ -18,5 +18,5 @@
 <area shape="rect" id="Node000008" title=" " alt="" coords="502,573,633,638"/>
 <area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="570,638,570,834,565,834,565,638"/>
 <area shape="rect" id="Node000009" title=" " alt="" coords="657,573,737,638"/>
-<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="692,639,674,708,647,789,625,837,620,835,642,787,669,707,687,637"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="692,639,674,708,647,789,626,837,621,835,642,787,669,707,687,637"/>
 </map>

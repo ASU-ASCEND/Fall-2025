@@ -9,6 +9,6 @@ var searchData=
   ['getrelhum_6',['getRelHum',['../classSHTC3Sensor.html#ae7355733a5c84c5812b69a88285610b8',1,'SHTC3Sensor']]],
   ['getsensorcsvheader_7',['getSensorCSVHeader',['../classSensor.html#a7a1b80d366c585dd9c85992f0ca96d39',1,'Sensor']]],
   ['getstatus_8',['getStatus',['../classFlashStorage.html#a318825f36239ed4e7c5bf345c6f95366',1,'FlashStorage']]],
-  ['gettempc_9',['getTempC',['../classTMP117Sensor.html#a8fcbf5633c60d32b43ea87d89e781e39',1,'TMP117Sensor']]],
+  ['gettempc_9',['getTempC',['../classTMP11xSensor.html#ac497502dabe146e07e8ae249d09ab02f',1,'TMP11xSensor']]],
   ['getverified_10',['getVerified',['../classDevice.html#a030b016bedb9a917634091199a946c94',1,'Device']]]
 ];

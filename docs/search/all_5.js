@@ -2,7 +2,7 @@ var searchData=
 [
   ['c_20or_20the_20software_20crashes_0',['If you do use CRTL+C or the software crashes',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2GroundSoftware.html#autotoc_md6',1,'']]],
   ['cad_20models_1',['CAD Models',['../index.html#autotoc_md45',1,'']]],
-  ['calibrate_2',['calibrate',['../classLSM9DS1Sensor.html#a108078a5fb9ce0e02d01bf5c664cf1b2',1,'LSM9DS1Sensor::calibrate()'],['../classPCF8523Sensor.html#ad82965660e65abcbfd781990addc4a47',1,'PCF8523Sensor::calibrate()']]],
+  ['calibrate_2',['calibrate',['../classPCF8523Sensor.html#ad82965660e65abcbfd781990addc4a47',1,'PCF8523Sensor']]],
   ['changes_20for_20this_20iteration_3',['Changes for this iteration',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2Packet__Definition.html#autotoc_md22',1,'']]],
   ['checkfreespacewarnings_4',['checkFreeSpaceWarnings',['../classFlashStorage.html#a60c834c7f8a10ad7ea4a26d01aefa4ea',1,'FlashStorage']]],
   ['checksum_5',['Checksum',['../md__2home_2runner_2work_2Fall-2025_2Fall-2025_2docs__src_2Packet__Definition.html#autotoc_md29',1,'']]],

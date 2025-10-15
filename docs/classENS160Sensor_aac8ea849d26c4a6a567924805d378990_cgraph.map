@@ -1,7 +1,9 @@
 <map id="ENS160Sensor::readData" name="ENS160Sensor::readData">
 <area shape="rect" id="Node000001" title="Reads Air Quality Index, TVOC (ppb), and ECOS (ppm)" alt="" coords="5,31,189,56"/>
-<area shape="rect" id="Node000002" href="$classDevice.html#a030b016bedb9a917634091199a946c94" title="Get if the Device is Verified." alt="" coords="237,5,383,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,30,223,26,224,31,190,35"/>
-<area shape="rect" id="Node000003" href="$classSensor.html#a62d72a2f81422ac2d2fa8ae86ba08571" title="Returns CSV line in the same format as readData() but with &quot;&#45;&quot; instead of data." alt="" coords="237,55,383,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,51,224,55,223,60,189,56"/>
+<area shape="rect" id="Node000002" href="$classSensor.html#a62d72a2f81422ac2d2fa8ae86ba08571" title="Returns CSV line in the same format as readData() but with &quot;&#45;&quot; instead of data." alt="" coords="287,5,433,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,32,273,24,274,29,190,37"/>
+<area shape="rect" id="Node000003" href="$classENS160Sensor.html#a5e03973e403c57a3db24622a71d14455" title=" " alt="" coords="237,55,483,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,49,224,52,223,58,189,54"/>
+<area shape="rect" id="Node000004" href="$classDevice.html#a030b016bedb9a917634091199a946c94" title="Get if the Device is Verified." alt="" coords="531,55,676,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="483,65,517,65,517,70,483,70"/>
 </map>

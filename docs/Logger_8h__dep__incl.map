@@ -1,114 +1,89 @@
 <map id="Logger.h" name="Logger.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="2435,5,2512,31"/>
-<area shape="rect" id="Node000002" href="$Device_8h.html" title=" " alt="" coords="2434,79,2513,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2476,44,2476,79,2471,79,2471,44"/>
-<area shape="rect" id="Node000003" href="$Sensor_8h.html" title=" " alt="" coords="1561,152,1639,177"/>
-<area shape="poly" id="edge63_Node000001_Node000003" title=" " alt="" coords="2421,31,1640,160,1639,154,2421,25"/>
-<area shape="rect" id="Node000006" href="$main_8cpp.html" title="Main functions for Core 0, responsible for reading data from sensor peripherals." alt="" coords="992,299,1075,324"/>
-<area shape="poly" id="edge65_Node000001_Node000006" title=" " alt="" coords="2421,24,2069,44,1818,62,1550,84,1290,112,1062,145,968,164,891,184,835,205,802,227,797,238,802,249,824,257,874,271,992,298,991,303,873,276,822,262,798,253,792,238,798,224,832,200,889,179,967,159,1061,140,1289,107,1550,79,1818,56,2068,39,2421,19"/>
-<area shape="rect" id="Node000039" href="$Storage_8h.html" title=" " alt="" coords="3039,152,3123,177"/>
-<area shape="poly" id="edge64_Node000001_Node000039" title=" " alt="" coords="2526,29,3040,151,3038,156,2525,34"/>
-<area shape="rect" id="Node000042" href="$main1_8cpp.html" title="Main functions for Core 1, responsible for sending data to storage peripherals." alt="" coords="3252,299,3343,324"/>
-<area shape="poly" id="edge66_Node000001_Node000042" title=" " alt="" coords="2526,21,2639,33,2792,56,2965,94,3052,119,3136,150,3201,178,3227,196,3255,224,3281,262,3296,297,3291,299,3276,265,3251,227,3223,200,3198,183,3134,154,3050,124,2964,99,2791,61,2638,38,2525,26"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="2420,100,1639,163,1639,158,2420,94"/>
-<area shape="poly" id="edge52_Node000002_Node000039" title=" " alt="" coords="2526,96,3040,156,3039,161,2526,101"/>
-<area shape="rect" id="Node000004" href="$AS7331Sensor_8h.html" title=" " alt="" coords="1303,225,1430,251"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1550,184,1405,228,1404,223,1549,179"/>
-<area shape="poly" id="edge51_Node000003_Node000006" title=" " alt="" coords="1548,168,1469,170,1370,178,1261,196,1207,210,1156,228,1123,244,1093,263,1047,300,1044,296,1090,259,1120,239,1154,223,1206,205,1260,191,1369,173,1469,165,1547,162"/>
-<area shape="rect" id="Node000007" href="$BME280Sensor_8h.html" title=" " alt="" coords="2103,225,2233,251"/>
-<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="1653,170,2103,226,2102,231,1653,175"/>
-<area shape="rect" id="Node000009" href="$BME680Sensor_8h.html" title=" " alt="" coords="2279,225,2409,251"/>
-<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="1653,168,2246,223,2278,226,2278,232,2245,228,1652,173"/>
-<area shape="rect" id="Node000011" href="$BMP390Sensor_8h.html" title=" " alt="" coords="1455,225,1585,251"/>
-<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="1579,188,1535,227,1531,223,1575,184"/>
-<area shape="rect" id="Node000013" href="$DS3231Sensor_8h.html" title=" " alt="" coords="2445,225,2571,251"/>
-<area shape="poly" id="edge13_Node000003_Node000013" title=" " alt="" coords="1652,166,1977,186,2197,202,2422,223,2445,225,2444,231,2421,228,2197,208,1977,191,1652,171"/>
-<area shape="rect" id="Node000015" href="$ENS160Sensor_8h.html" title=" " alt="" coords="610,225,737,251"/>
-<area shape="poly" id="edge15_Node000003_Node000015" title=" " alt="" coords="1548,172,800,228,737,233,737,228,800,223,1548,167"/>
-<area shape="rect" id="Node000017" href="$ICM20948Sensor_8h.html" title=" " alt="" coords="1610,225,1753,251"/>
-<area shape="poly" id="edge18_Node000003_Node000017" title=" " alt="" coords="1625,184,1670,223,1666,227,1622,188"/>
-<area shape="rect" id="Node000019" href="$INA260Sensor_8h.html" title=" " alt="" coords="1777,225,1901,251"/>
-<area shape="poly" id="edge21_Node000003_Node000019" title=" " alt="" coords="1652,179,1801,223,1799,228,1651,184"/>
-<area shape="rect" id="Node000021" href="$LSM9DS1Sensor_8h.html" title=" " alt="" coords="2609,225,2748,251"/>
-<area shape="poly" id="edge24_Node000003_Node000021" title=" " alt="" coords="1653,165,2040,185,2309,201,2583,223,2609,225,2609,231,2582,228,2308,207,2040,190,1653,171"/>
-<area shape="rect" id="Node000023" href="$MTK3339Sensor_8h.html" title=" " alt="" coords="1925,225,2064,251"/>
-<area shape="poly" id="edge26_Node000003_Node000023" title=" " alt="" coords="1653,173,1932,223,1931,228,1652,178"/>
-<area shape="rect" id="Node000025" href="$OzoneSensor_8h.html" title=" " alt="" coords="171,225,290,251"/>
-<area shape="poly" id="edge29_Node000003_Node000025" title=" " alt="" coords="1548,169,1347,172,1040,180,675,198,486,211,302,228,291,229,290,224,301,223,486,206,675,193,1039,175,1346,166,1548,164"/>
-<area shape="rect" id="Node000027" href="$PCF8523Sensor_8h.html" title=" " alt="" coords="813,225,947,251"/>
-<area shape="poly" id="edge32_Node000003_Node000027" title=" " alt="" coords="1548,173,1295,194,960,228,948,229,947,224,960,223,1294,189,1547,167"/>
-<area shape="rect" id="Node000029" href="$SCD40Sensor_8h.html" title=" " alt="" coords="972,225,1092,251"/>
-<area shape="poly" id="edge35_Node000003_Node000029" title=" " alt="" coords="1548,175,1111,228,1092,231,1092,225,1110,223,1547,169"/>
-<area shape="rect" id="Node000031" href="$SGP30Sensor_8h.html" title=" " alt="" coords="2786,225,2905,251"/>
-<area shape="poly" id="edge38_Node000003_Node000031" title=" " alt="" coords="1653,165,2108,180,2430,198,2760,223,2786,225,2785,231,2760,228,2430,203,2108,186,1652,170"/>
-<area shape="rect" id="Node000033" href="$SHTC3Sensor_8h.html" title=" " alt="" coords="314,225,433,251"/>
-<area shape="poly" id="edge40_Node000003_Node000033" title=" " alt="" coords="1548,169,1366,173,1094,183,773,200,444,228,433,229,433,224,444,223,772,195,1093,178,1366,168,1548,164"/>
-<area shape="rect" id="Node000035" href="$TMP117Sensor_8h.html" title=" " alt="" coords="457,225,586,251"/>
-<area shape="poly" id="edge44_Node000003_Node000035" title=" " alt="" coords="1548,170,1153,187,878,204,598,228,587,229,586,224,597,223,878,198,1152,181,1548,165"/>
-<area shape="rect" id="Node000037" href="$TempSensor_8h.html" title=" " alt="" coords="1167,225,1279,251"/>
-<area shape="poly" id="edge48_Node000003_Node000037" title=" " alt="" coords="1548,178,1280,229,1279,223,1547,173"/>
-<area shape="rect" id="Node000005" href="$AS7331Sensor_8cpp.html" title=" " alt="" coords="1251,299,1392,324"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1354,264,1331,300,1326,297,1350,261"/>
-<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="1300,256,1087,301,1075,304,1074,299,1086,296,1299,251"/>
-<area shape="rect" id="Node000008" href="$BME280Sensor_8cpp.html" title=" " alt="" coords="2109,299,2254,324"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="2175,264,2182,298,2177,299,2170,265"/>
-<area shape="rect" id="Node000010" href="$BME680Sensor_8cpp.html" title=" " alt="" coords="2278,299,2423,324"/>
-<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="2349,264,2352,298,2347,299,2344,265"/>
-<area shape="poly" id="edge12_Node000011_Node000006" title=" " alt="" coords="1441,253,1262,276,1087,301,1076,303,1075,298,1086,296,1261,270,1441,248"/>
-<area shape="rect" id="Node000012" href="$BMP390Sensor_8cpp.html" title=" " alt="" coords="1417,299,1562,324"/>
-<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1512,264,1497,300,1492,297,1507,262"/>
-<area shape="rect" id="Node000014" href="$DS3231Sensor_8cpp.html" title=" " alt="" coords="2447,299,2590,324"/>
-<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="2514,264,2520,298,2514,299,2509,265"/>
-<area shape="poly" id="edge17_Node000015_Node000006" title=" " alt="" coords="747,251,979,296,992,299,991,304,978,301,746,256"/>
-<area shape="rect" id="Node000016" href="$ENS160Sensor_8cpp.html" title=" " alt="" coords="491,299,634,324"/>
-<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="645,260,582,301,579,296,643,256"/>
-<area shape="poly" id="edge20_Node000017_Node000006" title=" " alt="" coords="1597,253,1452,267,1339,274,1228,283,1087,301,1076,303,1075,298,1086,296,1227,278,1339,269,1452,262,1596,248"/>
-<area shape="rect" id="Node000018" href="$ICM20948Sensor_8cpp.html" title=" " alt="" coords="1587,299,1744,324"/>
-<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="1678,265,1671,299,1665,298,1673,263"/>
-<area shape="poly" id="edge23_Node000019_Node000006" title=" " alt="" coords="1763,253,1572,269,1422,274,1274,281,1087,301,1076,303,1075,298,1086,296,1274,276,1422,269,1571,263,1763,248"/>
-<area shape="rect" id="Node000020" href="$INA260Sensor_8cpp.html" title=" " alt="" coords="1768,299,1907,324"/>
-<area shape="poly" id="edge22_Node000019_Node000020" title=" " alt="" coords="1841,265,1840,299,1835,298,1836,264"/>
-<area shape="rect" id="Node000022" href="$LSM9DS1Sensor_8cpp.html" title=" " alt="" coords="2614,299,2767,324"/>
-<area shape="poly" id="edge25_Node000021_Node000022" title=" " alt="" coords="2686,264,2691,298,2686,299,2680,265"/>
-<area shape="poly" id="edge28_Node000023_Node000006" title=" " alt="" coords="1912,253,1678,269,1496,272,1316,278,1211,287,1087,301,1076,303,1075,298,1086,296,1210,281,1315,273,1496,267,1678,263,1911,248"/>
-<area shape="rect" id="Node000024" href="$MTK3339Sensor_8cpp.html" title=" " alt="" coords="1931,299,2085,324"/>
-<area shape="poly" id="edge27_Node000023_Node000024" title=" " alt="" coords="2002,264,2008,298,2003,299,1997,265"/>
-<area shape="poly" id="edge31_Node000025_Node000006" title=" " alt="" coords="304,248,494,264,643,269,791,276,979,296,992,298,991,303,978,301,791,281,643,275,494,269,304,253"/>
-<area shape="rect" id="Node000026" href="$OzoneSensor_8cpp.html" title=" " alt="" coords="5,299,139,324"/>
-<area shape="poly" id="edge30_Node000025_Node000026" title=" " alt="" coords="194,259,99,301,97,296,192,254"/>
-<area shape="poly" id="edge34_Node000027_Node000006" title=" " alt="" coords="918,254,1009,296,1007,301,916,259"/>
-<area shape="rect" id="Node000028" href="$PCF8523Sensor_8cpp.html" title=" " alt="" coords="659,299,808,324"/>
-<area shape="poly" id="edge33_Node000027_Node000028" title=" " alt="" coords="846,259,758,301,756,296,843,254"/>
-<area shape="poly" id="edge37_Node000029_Node000006" title=" " alt="" coords="1035,264,1036,298,1030,299,1030,265"/>
-<area shape="rect" id="Node000030" href="$SCD40Sensor_8cpp.html" title=" " alt="" coords="833,299,967,324"/>
-<area shape="poly" id="edge36_Node000029_Node000030" title=" " alt="" coords="1000,259,923,301,920,296,998,255"/>
-<area shape="rect" id="Node000032" href="$SGP30Sensor_8cpp.html" title=" " alt="" coords="2791,299,2926,324"/>
-<area shape="poly" id="edge39_Node000031_Node000032" title=" " alt="" coords="2853,264,2859,298,2854,299,2847,265"/>
-<area shape="poly" id="edge43_Node000033_Node000006" title=" " alt="" coords="446,248,597,263,714,270,831,278,979,296,992,298,991,303,978,301,831,283,714,275,596,268,446,253"/>
-<area shape="poly" id="edge41_Node000033_Node000016" title=" " alt="" coords="417,253,533,296,531,301,416,258"/>
-<area shape="rect" id="Node000034" href="$SHTC3Sensor_8cpp.html" title=" " alt="" coords="163,299,298,324"/>
-<area shape="poly" id="edge42_Node000033_Node000034" title=" " alt="" coords="340,259,255,301,253,296,337,254"/>
-<area shape="poly" id="edge47_Node000035_Node000006" title=" " alt="" coords="600,248,791,270,979,296,992,298,991,304,978,301,791,276,600,254"/>
-<area shape="poly" id="edge45_Node000035_Node000016" title=" " alt="" coords="537,261,558,297,554,300,533,264"/>
-<area shape="rect" id="Node000036" href="$TMP117Sensor_8cpp.html" title=" " alt="" coords="323,299,467,324"/>
-<area shape="poly" id="edge46_Node000035_Node000036" title=" " alt="" coords="490,260,417,301,414,296,488,255"/>
-<area shape="poly" id="edge50_Node000037_Node000006" title=" " alt="" coords="1180,258,1065,301,1063,296,1179,253"/>
-<area shape="rect" id="Node000038" href="$TempSensor_8cpp.html" title=" " alt="" coords="1099,299,1226,324"/>
-<area shape="poly" id="edge49_Node000037_Node000038" title=" " alt="" coords="1206,263,1174,300,1170,297,1202,260"/>
-<area shape="rect" id="Node000040" href="$FlashStorage_8h.html" title=" " alt="" coords="3090,225,3209,251"/>
-<area shape="poly" id="edge53_Node000039_Node000040" title=" " alt="" coords="3104,185,3140,223,3136,227,3100,189"/>
-<area shape="poly" id="edge62_Node000039_Node000042" title=" " alt="" coords="3133,179,3178,198,3222,223,3263,261,3291,296,3287,300,3259,265,3218,227,3175,203,3131,184"/>
-<area shape="rect" id="Node000043" href="$RadioStorage_8h.html" title=" " alt="" coords="3335,225,3457,251"/>
-<area shape="poly" id="edge56_Node000039_Node000043" title=" " alt="" coords="3138,176,3346,223,3345,228,3136,181"/>
-<area shape="rect" id="Node000045" href="$SDStorage_8h.html" title=" " alt="" coords="2963,225,3066,251"/>
-<area shape="poly" id="edge59_Node000039_Node000045" title=" " alt="" coords="3063,190,3027,227,3024,223,3059,186"/>
-<area shape="rect" id="Node000041" href="$FlashStorage_8cpp.html" title=" " alt="" coords="3093,299,3227,324"/>
-<area shape="poly" id="edge54_Node000040_Node000041" title=" " alt="" coords="3156,264,3161,298,3156,299,3150,265"/>
-<area shape="poly" id="edge55_Node000040_Node000042" title=" " alt="" coords="3186,254,3274,296,3272,301,3184,259"/>
-<area shape="poly" id="edge58_Node000043_Node000042" title=" " alt="" coords="3371,261,3315,301,3312,296,3368,256"/>
-<area shape="rect" id="Node000044" href="$RadioStorage_8cpp.html" title=" " alt="" coords="3367,299,3503,324"/>
-<area shape="poly" id="edge57_Node000043_Node000044" title=" " alt="" coords="3411,262,3431,297,3426,300,3407,264"/>
-<area shape="poly" id="edge61_Node000045_Node000042" title=" " alt="" coords="3074,251,3252,296,3251,301,3073,257"/>
-<area shape="rect" id="Node000046" href="$SDStorage_8cpp.html" title=" " alt="" coords="2951,299,3068,324"/>
-<area shape="poly" id="edge60_Node000045_Node000046" title=" " alt="" coords="3015,265,3013,299,3008,298,3010,264"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1618,5,1695,31"/>
+<area shape="rect" id="Node000002" href="$Device_8h.html" title=" " alt="" coords="1617,79,1696,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1659,44,1659,79,1654,79,1654,44"/>
+<area shape="rect" id="Node000003" href="$Sensor_8h.html" title=" " alt="" coords="1049,152,1126,177"/>
+<area shape="poly" id="edge50_Node000001_Node000003" title=" " alt="" coords="1606,35,1127,156,1125,151,1604,30"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html" title="Main functions for Core 0, responsible for reading data from sensor peripherals." alt="" coords="830,299,913,324"/>
+<area shape="poly" id="edge52_Node000001_Node000006" title=" " alt="" coords="1604,25,1409,43,1280,58,1145,79,1012,106,894,139,843,159,799,180,764,202,739,227,733,239,734,250,742,261,755,270,791,287,830,299,829,304,789,292,752,275,738,265,729,252,727,239,735,224,761,198,797,175,841,154,892,134,1011,101,1144,74,1279,53,1408,37,1604,20"/>
+<area shape="rect" id="Node000027" href="$Storage_8h.html" title=" " alt="" coords="2041,152,2125,177"/>
+<area shape="poly" id="edge51_Node000001_Node000027" title=" " alt="" coords="1704,33,2050,149,2049,154,1703,38"/>
+<area shape="rect" id="Node000030" href="$main1_8cpp.html" title="Main functions for Core 1, responsible for sending data to storage peripherals." alt="" coords="2249,299,2339,324"/>
+<area shape="poly" id="edge53_Node000001_Node000030" title=" " alt="" coords="1709,23,1872,46,2085,87,2191,114,2286,146,2362,182,2390,202,2411,224,2417,237,2416,250,2409,261,2398,271,2368,288,2335,301,2333,296,2366,283,2395,267,2405,258,2411,248,2412,238,2406,227,2387,207,2359,187,2284,151,2190,120,2084,92,1871,51,1708,28"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1604,102,1127,161,1126,156,1603,97"/>
+<area shape="poly" id="edge39_Node000002_Node000027" title=" " alt="" coords="1710,99,2041,154,2040,159,1709,104"/>
+<area shape="rect" id="Node000004" href="$AS7331Sensor_8h.html" title=" " alt="" coords="1096,225,1223,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1111,185,1150,223,1146,227,1107,189"/>
+<area shape="poly" id="edge38_Node000003_Node000006" title=" " alt="" coords="1037,184,992,203,949,227,909,265,881,300,877,296,905,261,946,223,990,198,1034,179"/>
+<area shape="rect" id="Node000007" href="$BMP390Sensor_8h.html" title=" " alt="" coords="1247,225,1378,251"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="1137,179,1277,223,1275,228,1136,184"/>
+<area shape="rect" id="Node000009" href="$ENS160Sensor_8h.html" title=" " alt="" coords="251,225,377,251"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="1035,172,759,192,389,228,378,229,377,224,388,223,758,187,1035,167"/>
+<area shape="rect" id="Node000011" href="$ICM20948Sensor_8h.html" title=" " alt="" coords="1403,225,1545,251"/>
+<area shape="poly" id="edge12_Node000003_Node000011" title=" " alt="" coords="1140,173,1412,223,1411,228,1139,178"/>
+<area shape="rect" id="Node000013" href="$INA260Sensor_8h.html" title=" " alt="" coords="1569,225,1693,251"/>
+<area shape="poly" id="edge15_Node000003_Node000013" title=" " alt="" coords="1140,170,1557,223,1569,224,1569,230,1556,228,1140,175"/>
+<area shape="rect" id="Node000015" href="$MTK3339Sensor_8h.html" title=" " alt="" coords="1718,225,1857,251"/>
+<area shape="poly" id="edge18_Node000003_Node000015" title=" " alt="" coords="1140,168,1384,189,1705,223,1718,224,1718,230,1704,228,1383,195,1139,173"/>
+<area shape="rect" id="Node000017" href="$OzoneSensor_8h.html" title=" " alt="" coords="555,225,673,251"/>
+<area shape="poly" id="edge21_Node000003_Node000017" title=" " alt="" coords="1036,176,674,230,673,225,1035,171"/>
+<area shape="rect" id="Node000019" href="$PCF8523Sensor_8h.html" title=" " alt="" coords="749,225,884,251"/>
+<area shape="poly" id="edge24_Node000003_Node000019" title=" " alt="" coords="1036,182,861,228,860,223,1035,177"/>
+<area shape="rect" id="Node000021" href="$SHTC3Sensor_8h.html" title=" " alt="" coords="108,225,227,251"/>
+<area shape="poly" id="edge27_Node000003_Node000021" title=" " alt="" coords="1035,171,699,188,471,205,238,228,227,229,227,224,238,223,470,200,699,183,1034,165"/>
+<area shape="rect" id="Node000023" href="$TMP11xSensor_8h.html" title=" " alt="" coords="401,225,531,251"/>
+<area shape="poly" id="edge31_Node000003_Node000023" title=" " alt="" coords="1035,174,820,196,542,228,531,229,531,224,542,223,820,190,1035,168"/>
+<area shape="rect" id="Node000025" href="$TempSensor_8h.html" title=" " alt="" coords="959,225,1071,251"/>
+<area shape="poly" id="edge35_Node000003_Node000025" title=" " alt="" coords="1067,189,1029,227,1025,223,1064,185"/>
+<area shape="rect" id="Node000005" href="$AS7331Sensor_8cpp.html" title=" " alt="" coords="1089,299,1230,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1162,264,1162,299,1157,299,1157,264"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="1100,257,913,302,912,297,1099,251"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="1234,254,925,301,914,303,913,298,924,296,1233,248"/>
+<area shape="rect" id="Node000008" href="$BMP390Sensor_8cpp.html" title=" " alt="" coords="1255,299,1400,324"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1320,264,1328,298,1322,299,1315,265"/>
+<area shape="poly" id="edge11_Node000009_Node000006" title=" " alt="" coords="391,248,607,270,700,279,818,296,830,298,829,303,818,301,700,285,606,275,391,254"/>
+<area shape="rect" id="Node000010" href="$ENS160Sensor_8cpp.html" title=" " alt="" coords="164,299,307,324"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="293,262,250,300,246,296,289,258"/>
+<area shape="poly" id="edge14_Node000011_Node000006" title=" " alt="" coords="1390,253,1257,267,1155,275,1053,284,925,301,914,303,913,298,924,296,1053,279,1154,269,1257,261,1389,248"/>
+<area shape="rect" id="Node000012" href="$ICM20948Sensor_8cpp.html" title=" " alt="" coords="1425,299,1582,324"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="1487,263,1501,298,1496,300,1482,265"/>
+<area shape="poly" id="edge17_Node000013_Node000006" title=" " alt="" coords="1556,253,1377,268,1238,274,1100,282,925,301,914,303,913,298,924,296,1099,276,1237,269,1377,263,1555,248"/>
+<area shape="rect" id="Node000014" href="$INA260Sensor_8cpp.html" title=" " alt="" coords="1606,299,1745,324"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="1648,261,1670,297,1666,300,1644,264"/>
+<area shape="poly" id="edge20_Node000015_Node000006" title=" " alt="" coords="1705,253,1484,268,1312,273,1141,279,1042,287,925,301,914,303,913,298,924,296,1041,282,1141,274,1311,267,1484,263,1704,248"/>
+<area shape="rect" id="Node000016" href="$MTK3339Sensor_8cpp.html" title=" " alt="" coords="1769,299,1923,324"/>
+<area shape="poly" id="edge19_Node000015_Node000016" title=" " alt="" coords="1808,260,1839,297,1834,300,1804,263"/>
+<area shape="poly" id="edge23_Node000017_Node000006" title=" " alt="" coords="669,252,830,296,829,301,668,257"/>
+<area shape="rect" id="Node000018" href="$OzoneSensor_8cpp.html" title=" " alt="" coords="499,299,633,324"/>
+<area shape="poly" id="edge22_Node000017_Node000018" title=" " alt="" coords="601,264,576,300,572,297,596,261"/>
+<area shape="poly" id="edge26_Node000019_Node000006" title=" " alt="" coords="836,260,865,297,860,300,832,263"/>
+<area shape="rect" id="Node000020" href="$PCF8523Sensor_8cpp.html" title=" " alt="" coords="657,299,806,324"/>
+<area shape="poly" id="edge25_Node000019_Node000020" title=" " alt="" coords="794,261,747,300,744,296,791,257"/>
+<area shape="poly" id="edge30_Node000021_Node000006" title=" " alt="" coords="241,248,404,263,531,270,658,277,818,296,830,298,829,303,818,301,658,283,531,275,403,269,240,254"/>
+<area shape="poly" id="edge28_Node000021_Node000010" title=" " alt="" coords="190,259,226,297,222,300,186,262"/>
+<area shape="rect" id="Node000022" href="$SHTC3Sensor_8cpp.html" title=" " alt="" coords="5,299,140,324"/>
+<area shape="poly" id="edge29_Node000021_Node000022" title=" " alt="" coords="143,261,90,301,87,296,140,257"/>
+<area shape="poly" id="edge34_Node000023_Node000006" title=" " alt="" coords="545,249,818,296,830,298,829,304,818,301,544,254"/>
+<area shape="poly" id="edge32_Node000023_Node000010" title=" " alt="" coords="416,257,273,301,272,296,415,252"/>
+<area shape="rect" id="Node000024" href="$TMP11xSensor_8cpp.html" title=" " alt="" coords="331,299,475,324"/>
+<area shape="poly" id="edge33_Node000023_Node000024" title=" " alt="" coords="449,263,415,300,411,297,445,259"/>
+<area shape="poly" id="edge37_Node000025_Node000006" title=" " alt="" coords="981,259,896,301,894,296,979,254"/>
+<area shape="rect" id="Node000026" href="$TempSensor_8cpp.html" title=" " alt="" coords="937,299,1064,324"/>
+<area shape="poly" id="edge36_Node000025_Node000026" title=" " alt="" coords="1013,265,1006,299,1000,298,1008,264"/>
+<area shape="rect" id="Node000028" href="$FlashStorage_8h.html" title=" " alt="" coords="2279,225,2397,251"/>
+<area shape="poly" id="edge40_Node000027_Node000028" title=" " alt="" coords="2138,179,2297,223,2296,228,2137,184"/>
+<area shape="poly" id="edge49_Node000027_Node000030" title=" " alt="" coords="2132,180,2174,198,2216,223,2258,261,2287,297,2283,300,2254,265,2212,227,2171,203,2130,185"/>
+<area shape="rect" id="Node000031" href="$RadioStorage_8h.html" title=" " alt="" coords="1955,225,2076,251"/>
+<area shape="poly" id="edge43_Node000027_Node000031" title=" " alt="" coords="2065,189,2028,227,2024,223,2061,185"/>
+<area shape="rect" id="Node000033" href="$SDStorage_8h.html" title=" " alt="" coords="2100,225,2203,251"/>
+<area shape="poly" id="edge46_Node000027_Node000033" title=" " alt="" coords="2106,185,2142,223,2138,227,2102,189"/>
+<area shape="rect" id="Node000029" href="$FlashStorage_8cpp.html" title=" " alt="" coords="2364,299,2499,324"/>
+<area shape="poly" id="edge41_Node000028_Node000029" title=" " alt="" coords="2365,257,2418,296,2414,301,2362,261"/>
+<area shape="poly" id="edge42_Node000028_Node000030" title=" " alt="" coords="2326,264,2303,300,2299,297,2321,261"/>
+<area shape="poly" id="edge45_Node000031_Node000030" title=" " alt="" coords="2074,251,2250,296,2248,301,2073,257"/>
+<area shape="rect" id="Node000032" href="$RadioStorage_8cpp.html" title=" " alt="" coords="1947,299,2083,324"/>
+<area shape="poly" id="edge44_Node000031_Node000032" title=" " alt="" coords="2018,264,2018,299,2013,299,2013,264"/>
+<area shape="poly" id="edge48_Node000033_Node000030" title=" " alt="" coords="2188,254,2272,296,2269,301,2185,259"/>
+<area shape="rect" id="Node000034" href="$SDStorage_8cpp.html" title=" " alt="" coords="2107,299,2225,324"/>
+<area shape="poly" id="edge47_Node000033_Node000034" title=" " alt="" coords="2159,264,2166,298,2161,299,2154,265"/>
 </map>

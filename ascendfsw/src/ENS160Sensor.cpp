@@ -1,9 +1,11 @@
 #include "ENS160Sensor.h"
 
+#include "SHTC3Sensor.h"
 #include "TMP11xSensor.h"
 
 extern TMP11xSensor tmp_sensor;
 extern TMP11xSensor tmp_sensor_out;
+extern SHTC3Sensor shtc3_sensor_out;
 
 /**
  * @brief Construct a new ENS160 Sensor object with default minimum_period of 0
@@ -41,6 +43,40 @@ bool ENS160Sensor::verify() {
   return true;
 }
 
+void ENS160Sensor::setCompensations(){
+  // set compensation values after read if we have them so that conversion
+  // doesn't slow the read not sure if it actually does but this will let it
+  // take until the next read which should be more than enough time, make sure
+  // that tmp117 and shtc3
+
+  TMP11xSensor* tmp_options[2];
+  SHTC3Sensor* shtc_options[1];
+
+  if (this->i2c_bus == &Wire) {
+    tmp_options[0] = &tmp_sensor;
+    tmp_options[1] = &tmp_sensor_out;
+    shtc_options[1] = &shtc3_sensor_out;
+  } else {
+    tmp_options[0] = &tmp_sensor_out;
+    tmp_options[1] = &tmp_sensor;
+    shtc_options[0] = &shtc3_sensor_out;
+  }
+
+  for (int i = 0; i < 2; i++) {
+    if (tmp_options[i]->getVerified()) {
+      this->ens.setTempCompensation(tmp_options[i]->getTempC());
+      break;
+    }
+  }
+
+  for (int i = 0; i < 1; i++) {
+    if (shtc_options[i]->getVerified()) {
+      this->ens.setRHCompensationFloat(shtc_options[i]->getRelHum());
+      break;
+    }
+  }
+}
+
 /**
  * @brief Reads Air Quality Index, TVOC (ppb), and ECOS (ppm)
  *
@@ -54,35 +90,9 @@ String ENS160Sensor::readData() {
     return this->readEmpty();
   }
 
-  // set compensation values after read if we have them so that conversion
-  // doesn't slow the read not sure if it actually does but this will let it
-  // take until the next read which should be more than enough time, make sure
-  // that tmp117 and shtc3
-
-  TMP11xSensor* tmp_options[2];
-
-  if (this->i2c_bus == &Wire) {
-    tmp_options[0] = &tmp_sensor;
-    tmp_options[1] = &tmp_sensor_out;
-  } else {
-    tmp_options[0] = &tmp_sensor_out;
-    tmp_options[1] = &tmp_sensor;
-  }
-
-  for (int i = 0; i < 2; i++) {
-    if (tmp_options[i]->getVerified()) {
-      this->ens.setTempCompensation(tmp_options[i]->getTempC());
-      break;
-    }
-  }
-
-  for (int i = 0; i < 2; i++) {
-    if (shtc_options[i]->getVerified()) {
-      this->ens.setRHCompensationFloat(shtc_options[i]->getRelHum());
-      break;
-    }
-  }
+  this->setCompensations(); 
 }
+
 void ENS160Sensor::readDataPacket(uint8_t*& packet) {
   if (!ens.checkDataStatus()) {
     return;
@@ -100,16 +110,7 @@ void ENS160Sensor::readDataPacket(uint8_t*& packet) {
   memcpy(packet, &eco2, sizeof(eco2));
   packet += sizeof(eco2);
 
-  // set compensation values after read if we have them so that conversion
-  // doesn't slow the read not sure if it actually does but this will let it
-  // take until the next read which should be more than enough time, make sure
-  // that tmp117 and shtc3
-  if (tmp_sensor.getVerified()) {
-    ens.setTempCompensationCelsius(tmp_sensor.getTempC());
-  }
-  if (shtc_sensor.getVerified()) {
-    ens.setRHCompensationFloat(shtc_sensor.getRelHum());
-  }
+  this->setCompensations(); 
 }
 
 String ENS160Sensor::decodeToCSV(uint8_t*& packet) {

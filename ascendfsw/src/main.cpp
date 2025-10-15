@@ -25,6 +25,7 @@
 #include "MTK3339Sensor.h"
 #include "OzoneSensor.h"
 #include "PCF8523Sensor.h"
+#include "SHTC3Sensor.h"
 #include "TMP11xSensor.h"
 #include "TempSensor.h"
 
@@ -54,14 +55,15 @@ AS7331Sensor    uv_sensor_out     (500, UV_I2C_ADDR);
 ENS160Sensor    ens160_sensor_out (500,   &Wire1);
 BMP390Sensor    bmp_sensor_out    (500,   &Wire1);
 TMP11xSensor    tmp_sensor_out    (500,   &Wire1); 
-OzoneSensor     ozone_sensor      (500);
+SHTC3Sensor     shtc3_sensor_out  (500,   &Wire1);
+OzoneSensor     ozone_sensor_out  (500);
 // clang-format on
 
 // sensor array
 Sensor* sensors[] = {&ina260_sensor,  &temp_sensor,       &gps_sensor,
                      &icm_sensor,     &rtc_sensor,        &tmp_sensor,
                      &uv_sensor_out,  &ens160_sensor_out, &bmp_sensor_out,
-                     &tmp_sensor_out, &ozone_sensor};
+                     &tmp_sensor_out, &shtc3_sensor_out,  &ozone_sensor_out};
 
 const int sensors_len = sizeof(sensors) / sizeof(sensors[0]);
 

@@ -15,7 +15,7 @@ class ENS160Sensor : public Sensor {
  private:
   SparkFun_ENS160 ens;
   TwoWire* i2c_bus;
-  void setCompensations(); 
+  void setCompensations();
 
  public:
   ENS160Sensor(TwoWire* i2c_bus = &Wire);

@@ -43,7 +43,7 @@ bool ENS160Sensor::verify() {
   return true;
 }
 
-void ENS160Sensor::setCompensations(){
+void ENS160Sensor::setCompensations() {
   // set compensation values after read if we have them so that conversion
   // doesn't slow the read not sure if it actually does but this will let it
   // take until the next read which should be more than enough time, make sure
@@ -90,7 +90,7 @@ String ENS160Sensor::readData() {
     return this->readEmpty();
   }
 
-  this->setCompensations(); 
+  this->setCompensations();
 }
 
 void ENS160Sensor::readDataPacket(uint8_t*& packet) {
@@ -110,7 +110,7 @@ void ENS160Sensor::readDataPacket(uint8_t*& packet) {
   memcpy(packet, &eco2, sizeof(eco2));
   packet += sizeof(eco2);
 
-  this->setCompensations(); 
+  this->setCompensations();
 }
 
 String ENS160Sensor::decodeToCSV(uint8_t*& packet) {

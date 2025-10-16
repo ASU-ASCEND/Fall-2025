@@ -2,6 +2,7 @@
 #define RADIO_STORAGE_H
 
 #include <Arduino.h>
+#include <RadioLib.h>
 
 #include "PayloadConfig.h"
 #include "Storage.h"
@@ -12,7 +13,8 @@
  */
 class RadioStorage : public Storage {
  private:
-  String file_name;
+  SX1276 radio = new Module(RADIO_NSS, RADIO_DIO0, RADIO_RESET, RADIO_DIO1);
+  int state; 
 
  public:
   RadioStorage();

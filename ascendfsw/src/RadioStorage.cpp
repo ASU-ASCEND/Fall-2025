@@ -1,5 +1,11 @@
 #include "RadioStorage.h"
 
+#include "Logger.h"
+
+static volatile bool transmission_done_flag = true;
+
+static void setTransmissionDoneFlag(void) { transmission_done_flag = true; }
+
 /**
  * @brief Construct a new RadioStorage object
  *
@@ -13,11 +19,13 @@ RadioStorage::RadioStorage() : Storage("Radio") {}
  * @return false otherwise
  */
 bool RadioStorage::verify() {
-  Serial1.end();
-  Serial1.setRX(SERIAL1_RX_PIN);
-  Serial1.setTX(SERIAL1_TX_PIN);
-  Serial1.begin(57600);
-  return Serial1;
+  this->state = this->radio.begin(RADIO_FREQ, RADIO_BW, RADIO_SF, RADIO_CR,
+                                  RADIO_SYNC_WORD, RADIO_POWER,
+                                  RADIO_PREAMBLE_LEN, RADIO_GAIN);
+
+  this->radio.setPacketSentAction(setTransmissionDoneFlag);
+
+  return this->state == RADIOLIB_ERR_NONE;
 }
 
 /**
@@ -28,8 +36,18 @@ bool RadioStorage::verify() {
 void RadioStorage::store(String data) {
   static const unsigned long transmission_mod = 1;
   static unsigned long transmission_count = 0;
-  if (transmission_count % transmission_mod == 0) {
-    Serial1.println(data);
+  if (transmission_done_flag && transmission_count % transmission_mod == 0) {
+    transmission_done_flag = false;
+
+    if (this->state == RADIOLIB_ERR_NONE) {
+      log_core("Transmission finished!");
+    } else {
+      log_core("Failed, code " + String(this->state));
+    }
+
+    this->radio.finishTransmit();
+
+    this->state = this->radio.startTransmit(data);
   }
   transmission_count++;
 }
@@ -42,14 +60,25 @@ void RadioStorage::store(String data) {
 void RadioStorage::storePacket(uint8_t* packet) {
   static const unsigned long transmission_mod = 1;
   static unsigned long transmission_count = 0;
-  // length of packet will be after sync bytes (4) and sensor presence (4)
-  // it is uint16_t
-  uint16_t packet_len;
-  memcpy(&packet_len, (packet + 8), sizeof(uint16_t));
 
   // write to packet
-  if (transmission_count % transmission_mod == 0) {
-    Serial1.write(packet, packet_len);
+  if (transmission_done_flag && transmission_count % transmission_mod == 0) {
+    transmission_done_flag = false;
+
+    if (this->state == RADIOLIB_ERR_NONE) {
+      log_core("Transmission finished!");
+    } else {
+      log_core("Failed, code " + String(this->state));
+    }
+
+    this->radio.finishTransmit();
+
+    // length of packet will be after sync bytes (4) and sensor presence (4)
+    // it is uint16_t
+    uint16_t packet_len;
+    memcpy(&packet_len, (packet + 8), sizeof(uint16_t));
+
+    this->state = this->radio.startTransmit(packet, packet_len);
   }
   transmission_count++;
 }

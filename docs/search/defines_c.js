@@ -1,14 +1,4 @@
 var searchData=
 [
-  ['sd_5fcs_5fpin_0',['SD_CS_PIN',['../PayloadConfig_8h.html#a04d57a6c18b2d5e81f31093e58ed0c62',1,'PayloadConfig.h']]],
-  ['sd_5fspi1_1',['SD_SPI1',['../PayloadConfig_8h.html#a6b45b8a80c72eccdea7bb185463ca679',1,'PayloadConfig.h']]],
-  ['sealevelpressure_5fhpa_2',['SEALEVELPRESSURE_HPA',['../BMP390Sensor_8cpp.html#a3fd1be5675628ccdd1cd809ee995b2e7',1,'BMP390Sensor.cpp']]],
-  ['serial2_5frx_5fpin_3',['SERIAL2_RX_PIN',['../PayloadConfig_8h.html#a903139e47218a47da6d5fc9c3fc6e9f1',1,'PayloadConfig.h']]],
-  ['serial2_5ftx_5fpin_4',['SERIAL2_TX_PIN',['../PayloadConfig_8h.html#a646cd57901d4c840f43dadb434058016',1,'PayloadConfig.h']]],
-  ['spi1_5fmiso_5fpin_5',['SPI1_MISO_PIN',['../PayloadConfig_8h.html#ad78661760fc1a7e2851c49d3cead2519',1,'PayloadConfig.h']]],
-  ['spi1_5fmosi_5fpin_6',['SPI1_MOSI_PIN',['../PayloadConfig_8h.html#a0eef22ccdc4fd88572ba8543445522c6',1,'PayloadConfig.h']]],
-  ['spi1_5fsck_5fpin_7',['SPI1_SCK_PIN',['../PayloadConfig_8h.html#aafbcfb01e19fc70a09a6b130e1e7154a',1,'PayloadConfig.h']]],
-  ['storing_5fpackets_8',['STORING_PACKETS',['../PayloadConfig_8h.html#a8f0e89cf0d6f933f7f2e641f06fa7dc2',1,'PayloadConfig.h']]],
-  ['stratocore_5fi2c_9',['STRATOCORE_I2c',['../PayloadConfig_8h.html#a6badfe1ab65a3aeadbac2086bc859e13',1,'PayloadConfig.h']]],
-  ['stratosense_5fi2c_10',['STRATOSENSE_I2C',['../PayloadConfig_8h.html#a806e29d40dc5b11f62f363dbc6ff6877',1,'PayloadConfig.h']]]
+  ['tmp117_5fi2c_5faddr_0',['TMP117_I2C_ADDR',['../PayloadConfig_8h.html#ada1082c14a84378dd047eb4e5f9262d3',1,'PayloadConfig.h']]]
 ];

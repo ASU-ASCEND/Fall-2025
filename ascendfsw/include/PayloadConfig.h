@@ -19,12 +19,6 @@
 /** @brief Error display bit 0 */
 #define ERROR_PIN_0 14
 
-// sensors
-/** @brief LSM9DS1 IMU Accelerometer/Gyroscope Pin */
-#define LSM9DS1_XGCS_PIN 3
-/** @brief LSM9DS1 IMU Magnetometer Pin */
-#define LSM9DS1_MCS_PIN 28
-
 /** @brief MTK3339 GPS CS Pin*/
 // #define MTK3339_CS_PIN 20
 #define SERIAL2_RX_PIN 9

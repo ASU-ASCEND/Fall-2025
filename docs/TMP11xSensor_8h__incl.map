@@ -1,20 +1,21 @@
 <map id="TMP11xSensor.h" name="TMP11xSensor.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="211,5,340,31"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="183,5,312,31"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,79,159,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,33,127,76,125,71,243,28"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="183,79,247,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="267,33,236,70,232,66,263,29"/>
-<area shape="rect" id="Node000004" href="$PayloadConfig_8h.html" title="Central location for pinout and config defines." alt="" coords="272,79,399,104"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="287,29,319,66,315,70,283,33"/>
-<area shape="rect" id="Node000005" href="$Sensor_8h.html" title=" " alt="" coords="423,79,501,104"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="306,28,420,71,418,76,304,33"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="407,299,491,324"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="450,106,430,126,414,153,408,188,413,225,424,258,437,286,433,288,419,260,408,226,403,188,409,151,426,123,446,102"/>
-<area shape="rect" id="Node000007" href="$Device_8h.html" title=" " alt="" coords="423,152,501,177"/>
-<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="465,104,465,138,459,138,459,104"/>
-<area shape="rect" id="Node000008" href="$Logger_8h.html" title=" " alt="" coords="486,225,563,251"/>
-<area shape="poly" id="edge10_Node000005_Node000008" title=" " alt="" coords="478,102,498,123,516,151,525,182,528,211,523,212,520,183,512,153,494,127,474,106"/>
-<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="464,178,454,285,448,285,458,178"/>
-<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="474,176,507,213,503,217,470,179"/>
-<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="514,253,473,291,469,287,511,249"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,33,123,76,120,71,220,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="206,152,270,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,32,233,53,225,79,224,110,231,139,226,140,219,111,219,78,228,51,238,30"/>
+<area shape="rect" id="Node000004" href="$PayloadConfig_8h.html" title="Central location for pinout and config defines." alt="" coords="235,79,361,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="258,29,284,66,280,69,254,33"/>
+<area shape="rect" id="Node000005" href="$Sensor_8h.html" title=" " alt="" coords="386,79,463,104"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="277,28,384,71,382,76,275,33"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="290,106,259,143,254,140,286,103"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="369,299,453,324"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="412,106,392,126,377,153,371,188,376,225,387,258,400,286,395,288,382,260,371,226,365,188,371,151,388,123,408,102"/>
+<area shape="rect" id="Node000007" href="$Device_8h.html" title=" " alt="" coords="385,152,464,177"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="427,104,427,138,422,138,422,104"/>
+<area shape="rect" id="Node000008" href="$Logger_8h.html" title=" " alt="" coords="449,225,526,251"/>
+<area shape="poly" id="edge11_Node000005_Node000008" title=" " alt="" coords="441,102,461,123,479,151,488,182,491,211,485,212,483,183,474,153,457,127,437,106"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="426,178,416,285,411,285,421,178"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="437,176,470,213,466,217,433,179"/>
+<area shape="poly" id="edge10_Node000008_Node000006" title=" " alt="" coords="477,253,436,291,432,287,473,249"/>
 </map>

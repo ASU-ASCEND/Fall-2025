@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['sd_5fcs_5fpin_0',['SD_CS_PIN',['../PayloadConfig_8h.html#a04d57a6c18b2d5e81f31093e58ed0c62',1,'PayloadConfig.h']]],
-  ['sd_5fspi1_1',['SD_SPI1',['../PayloadConfig_8h.html#a6b45b8a80c72eccdea7bb185463ca679',1,'PayloadConfig.h']]],
-  ['sealevelpressure_5fhpa_2',['SEALEVELPRESSURE_HPA',['../BMP390Sensor_8cpp.html#a3fd1be5675628ccdd1cd809ee995b2e7',1,'BMP390Sensor.cpp']]],
-  ['serial1_5frx_5fpin_3',['SERIAL1_RX_PIN',['../PayloadConfig_8h.html#a863cecd1886a3aab37477c89cff41c43',1,'PayloadConfig.h']]],
-  ['serial1_5ftx_5fpin_4',['SERIAL1_TX_PIN',['../PayloadConfig_8h.html#a034e57e90772ad922631c79a6a154110',1,'PayloadConfig.h']]],
-  ['serial2_5frx_5fpin_5',['SERIAL2_RX_PIN',['../PayloadConfig_8h.html#a903139e47218a47da6d5fc9c3fc6e9f1',1,'PayloadConfig.h']]],
-  ['serial2_5ftx_5fpin_6',['SERIAL2_TX_PIN',['../PayloadConfig_8h.html#a646cd57901d4c840f43dadb434058016',1,'PayloadConfig.h']]],
-  ['spi1_5fmiso_5fpin_7',['SPI1_MISO_PIN',['../PayloadConfig_8h.html#ad78661760fc1a7e2851c49d3cead2519',1,'PayloadConfig.h']]],
-  ['spi1_5fmosi_5fpin_8',['SPI1_MOSI_PIN',['../PayloadConfig_8h.html#a0eef22ccdc4fd88572ba8543445522c6',1,'PayloadConfig.h']]],
-  ['spi1_5fsck_5fpin_9',['SPI1_SCK_PIN',['../PayloadConfig_8h.html#aafbcfb01e19fc70a09a6b130e1e7154a',1,'PayloadConfig.h']]],
-  ['storing_5fpackets_10',['STORING_PACKETS',['../PayloadConfig_8h.html#a8f0e89cf0d6f933f7f2e641f06fa7dc2',1,'PayloadConfig.h']]],
-  ['stratosense_5fi2c_11',['STRATOSENSE_I2C',['../PayloadConfig_8h.html#a806e29d40dc5b11f62f363dbc6ff6877',1,'PayloadConfig.h']]]
+  ['radio_5fbw_0',['RADIO_BW',['../PayloadConfig_8h.html#a9818fe95ea039d5821e4e4de515eaec1',1,'PayloadConfig.h']]],
+  ['radio_5fcr_1',['RADIO_CR',['../PayloadConfig_8h.html#abcc73f01837a153ccb35f47e9db5525a',1,'PayloadConfig.h']]],
+  ['radio_5fdio0_2',['RADIO_DIO0',['../PayloadConfig_8h.html#ab7f6e22a48ed98401bc31087efb0a7f1',1,'PayloadConfig.h']]],
+  ['radio_5fdio1_3',['RADIO_DIO1',['../PayloadConfig_8h.html#ac9a997955646825175329d152f768687',1,'PayloadConfig.h']]],
+  ['radio_5ffreq_4',['RADIO_FREQ',['../PayloadConfig_8h.html#aeb79174579afa456423ee3d4b7be40e6',1,'PayloadConfig.h']]],
+  ['radio_5fgain_5',['RADIO_GAIN',['../PayloadConfig_8h.html#ae92be024f0023c905fbc434282f0185c',1,'PayloadConfig.h']]],
+  ['radio_5fnss_6',['RADIO_NSS',['../PayloadConfig_8h.html#aecada0a0e3aa3c8f32ce02c1c55e2479',1,'PayloadConfig.h']]],
+  ['radio_5fpower_7',['RADIO_POWER',['../PayloadConfig_8h.html#a2f9c8490f31f613e1db7440f1195638d',1,'PayloadConfig.h']]],
+  ['radio_5fpreamble_5flen_8',['RADIO_PREAMBLE_LEN',['../PayloadConfig_8h.html#afc9e6f3cc24e5e0cb39ddf002e85a149',1,'PayloadConfig.h']]],
+  ['radio_5freset_9',['RADIO_RESET',['../PayloadConfig_8h.html#a1bd90e2cc33f89a3bd2e0341821683cc',1,'PayloadConfig.h']]],
+  ['radio_5fsf_10',['RADIO_SF',['../PayloadConfig_8h.html#a8ee10bd19b5a0fed0b82171403cc834e',1,'PayloadConfig.h']]],
+  ['radio_5fsync_5fword_11',['RADIO_SYNC_WORD',['../PayloadConfig_8h.html#a0084e5cc159352e2255448feac98199e',1,'PayloadConfig.h']]]
 ];

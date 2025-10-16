@@ -28,8 +28,8 @@
 <area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="1117,614,1245,641,1319,663,1396,690,1474,723,1549,764,1619,813,1681,870,1711,911,1732,958,1747,1006,1756,1051,1751,1052,1742,1007,1727,960,1706,914,1677,874,1615,817,1546,769,1471,728,1394,695,1318,668,1244,647,1116,619"/>
 <area shape="rect" id="Node000015" href="$classFlashStorage.html" title=" " alt="" coords="1857,872,2061,1397"/>
 <area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="2043,678,2008,872,2003,871,2037,677"/>
-<area shape="rect" id="Node000016" href="$classRadioStorage.html" title="Implementation of a Storage device to interface with an SD card." alt="" coords="2085,1072,2211,1197"/>
-<area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="2069,677,2140,1071,2134,1072,2064,678"/>
+<area shape="rect" id="Node000016" href="$classRadioStorage.html" title="Implementation of a Storage device to interface with an SD card." alt="" coords="2085,1062,2211,1207"/>
+<area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="2069,677,2138,1061,2133,1062,2064,678"/>
 <area shape="rect" id="Node000017" href="$classSDStorage.html" title="Implementation of a Storage device to interface with an SD card." alt="" coords="2235,1062,2349,1207"/>
 <area shape="poly" id="edge16_Node000014_Node000017" title=" " alt="" coords="2110,674,2170,766,2199,818,2225,871,2259,969,2282,1061,2276,1062,2254,970,2220,873,2195,820,2165,769,2106,677"/>
 </map>

@@ -8,8 +8,9 @@ var searchData=
   ['shtc3_5',['shtc3',['../classSHTC3Sensor.html#a4ea5c1c9a1ba42a5a6ba58728b98a43d',1,'SHTC3Sensor']]],
   ['shtc3_5fsensor_5fout_6',['shtc3_sensor_out',['../ENS160Sensor_8cpp.html#a0f9793bc524bbe8b61a03055a7fdfda4',1,'shtc3_sensor_out:&#160;ENS160Sensor.cpp'],['../main_8cpp.html#a172b73d0b0fc5960e966e3b4186020c0',1,'shtc3_sensor_out:&#160;main.cpp']]],
   ['start_5faddress_7',['start_address',['../structFileHeader.html#abfd07b5063e2f45ecfc0e5e88296f5a7',1,'FileHeader::start_address'],['../classFlashStorage.html#a5216340e4a74290300e21e318ba019a8',1,'FlashStorage::START_ADDRESS']]],
-  ['storages_8',['storages',['../main1_8cpp.html#a39db351a5a127ccbd3893f4de5936b05',1,'main1.cpp']]],
-  ['storages_5flen_9',['storages_len',['../main1_8cpp.html#a12b260a884350838d7056cd758cd8cbe',1,'main1.cpp']]],
-  ['sync_5fbytes_10',['SYNC_BYTES',['../PayloadConfig_8h.html#abaacb8cdda17b6340a4d5aeaf72e2ca6',1,'PayloadConfig.h']]],
-  ['system_5fpaused_11',['system_paused',['../structCommandMessage.html#acc47b3751cb94962a36625c4b04b51c7',1,'CommandMessage']]]
+  ['state_8',['state',['../classRadioStorage.html#ada8521aaa8f1308d25a4c1912b7e1413',1,'RadioStorage']]],
+  ['storages_9',['storages',['../main1_8cpp.html#a39db351a5a127ccbd3893f4de5936b05',1,'main1.cpp']]],
+  ['storages_5flen_10',['storages_len',['../main1_8cpp.html#a12b260a884350838d7056cd758cd8cbe',1,'main1.cpp']]],
+  ['sync_5fbytes_11',['SYNC_BYTES',['../PayloadConfig_8h.html#abaacb8cdda17b6340a4d5aeaf72e2ca6',1,'PayloadConfig.h']]],
+  ['system_5fpaused_12',['system_paused',['../structCommandMessage.html#acc47b3751cb94962a36625c4b04b51c7',1,'CommandMessage']]]
 ];

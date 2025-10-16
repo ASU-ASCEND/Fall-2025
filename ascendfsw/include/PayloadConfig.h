@@ -51,10 +51,20 @@
 #define STORING_PACKETS 1
 
 // for radio
-/** @brief UART0 RX Pin */
-#define SERIAL1_RX_PIN 1
-/** @brief UART0 RX Pin */
-#define SERIAL1_TX_PIN 0
+/// Radio pinouts
+#define RADIO_NSS 10
+#define RADIO_DIO0 2
+#define RADIO_RESET 9
+#define RADIO_DIO1 3
+
+#define RADIO_FREQ 434.0
+#define RADIO_BW 125.0
+#define RADIO_SF 9
+#define RADIO_CR 7
+#define RADIO_SYNC_WORD RADIOLIB_SX127X_SYNC_WORD
+#define RADIO_POWER 10
+#define RADIO_PREAMBLE_LEN 8
+#define RADIO_GAIN 0
 
 /** @brief SD Card SPI Toggle */
 #define SD_SPI1 1

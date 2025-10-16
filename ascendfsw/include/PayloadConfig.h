@@ -10,6 +10,8 @@
 #ifndef PAYLOAD_CONFIG_H
 #define PAYLOAD_CONFIG_H
 
+#include <Wire.h>
+
 /** @brief Error display bit 2 */
 #define ERROR_PIN_2 22
 /** @brief Error display bit 1 */
@@ -45,6 +47,9 @@
 
 /** @brief StratoSense board I2C Bus */
 #define STRATOSENSE_I2C Wire1
+
+/** @brief StatoCore board I2C Bus */
+#define STRATOCORE_I2c Wire
 
 // storages
 /** @brief Toggle sending packets vs C strings over transfer queue */

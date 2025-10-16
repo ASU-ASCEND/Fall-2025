@@ -7,17 +7,17 @@
 * [Mechanical](#mechanical)
 
 # Software
-Flight software for the ASU Spring 2025 ASCEND Payload. More documentation can be found under [Related Pages](https://asu-ascend.github.io/Fall-2025/pages.html).
+Flight software for the ASU Fall 2025 ASCEND Payload. More documentation can be found under [Related Pages](https://asu-ascend.github.io/Fall-2025/pages.html).
 
 ## GitHub Subfolders
 
 [DataProcessing](https://github.com/ASU-ASCEND/Spring-2025/tree/main/DataProcessing): Scripts and programs for processing and visualizing flight data.
 
-[GroundStation](https://github.com/ASU-ASCEND/Fall-2025/tree/main/GroundStation): Ground Software GUI built in Python. 
+[GroundStation](https://github.com/ASU-ASCEND/Fall-2025/tree/main/GroundStation): Ground Station tools built in Python. 
 
 [Testing](https://github.com/ASU-ASCEND/Fall-2025/tree/main/Testing): Test and calibration information for sensor and storage modules.
 
-[Watchdog](https://github.com/ASU-ASCEND/Fall-2025/tree/main/Watchdog): Software for watchdog Attiny85 chip.
+[Watchdog](https://github.com/ASU-SDSL/CoconutWatchdog): Software for watchdog Attiny85 chip.
 
 [ascendfsw](https://github.com/ASU-ASCEND/Fall-2025/tree/main/ascendfsw): Payload flight software.
 

@@ -10,6 +10,8 @@ var searchData=
   ['radio_5fpower_7',['RADIO_POWER',['../PayloadConfig_8h.html#a2f9c8490f31f613e1db7440f1195638d',1,'PayloadConfig.h']]],
   ['radio_5fpreamble_5flen_8',['RADIO_PREAMBLE_LEN',['../PayloadConfig_8h.html#afc9e6f3cc24e5e0cb39ddf002e85a149',1,'PayloadConfig.h']]],
   ['radio_5freset_9',['RADIO_RESET',['../PayloadConfig_8h.html#a1bd90e2cc33f89a3bd2e0341821683cc',1,'PayloadConfig.h']]],
-  ['radio_5fsf_10',['RADIO_SF',['../PayloadConfig_8h.html#a8ee10bd19b5a0fed0b82171403cc834e',1,'PayloadConfig.h']]],
-  ['radio_5fsync_5fword_11',['RADIO_SYNC_WORD',['../PayloadConfig_8h.html#a0084e5cc159352e2255448feac98199e',1,'PayloadConfig.h']]]
+  ['radio_5frx_5fenable_10',['RADIO_RX_ENABLE',['../PayloadConfig_8h.html#af06fa68bad7f96430a272b915c3496ea',1,'PayloadConfig.h']]],
+  ['radio_5fsf_11',['RADIO_SF',['../PayloadConfig_8h.html#a8ee10bd19b5a0fed0b82171403cc834e',1,'PayloadConfig.h']]],
+  ['radio_5fsync_5fword_12',['RADIO_SYNC_WORD',['../PayloadConfig_8h.html#a0084e5cc159352e2255448feac98199e',1,'PayloadConfig.h']]],
+  ['radio_5ftx_5fenable_13',['RADIO_TX_ENABLE',['../PayloadConfig_8h.html#ac6d8b711341057f186db5b7f4602c405',1,'PayloadConfig.h']]]
 ];

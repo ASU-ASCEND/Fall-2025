@@ -33,8 +33,8 @@
 #define OZONE_I2C_ADDR 0x73
 
 /** @brief I2C1 pins */
-#define I2C1_SCL_PIN 27
-#define I2C1_SDA_PIN 26
+#define I2C1_SDA_PIN 10
+#define I2C1_SCL_PIN 11
 
 /** @brief Default I2C Address for TMP117 */
 #define TMP117_I2C_ADDR 0x48
@@ -51,10 +51,12 @@
 
 // for radio
 /// Radio pinouts
-#define RADIO_NSS 10
+#define RADIO_NSS 1
 #define RADIO_DIO0 2
-#define RADIO_RESET 9
+#define RADIO_RESET 0
 #define RADIO_DIO1 3
+#define RADIO_TX_ENABLE 26
+#define RADIO_RX_ENABLE 27
 
 #define RADIO_FREQ 434.0
 #define RADIO_BW 125.0
@@ -68,28 +70,28 @@
 /** @brief SD Card SPI Toggle */
 #define SD_SPI1 1
 /** @brief SD Card SPI CS Pin */
-#define SD_CS_PIN 13
+#define SD_CS_PIN 17
 
 /** @brief Flash memory SPI Toggle */
 #define FLASH_SPI1 0
 /** @brief Flash chip SPI CS Pin */
-#define FLASH_CS_PIN 17
+#define FLASH_CS_PIN 13
 
 // spi1
 /** @brief SPI1 MISO Pin */
 #define SPI1_MISO_PIN 12
 /** @brief SPI1 SCK Pin */
-#define SPI1_SCK_PIN 10
+#define SPI1_SCK_PIN 14
 /** @brief SPI1 MOSI Pin */
-#define SPI1_MOSI_PIN 11
+#define SPI1_MOSI_PIN 15
 
 // main pin definitions
 /** @brief Built-in LED Pin */
 #define ON_BOARD_LED_PIN 25
 /** @brief Core 0 Heartbeat Pin */
-#define HEARTBEAT_PIN_0 20
+#define HEARTBEAT_PIN_0 21
 /** @brief Core 1 Heartbeat Pin */
-#define HEARTBEAT_PIN_1 21
+#define HEARTBEAT_PIN_1 20
 
 // multicore transfer queue
 #define QT_ENTRY_SIZE 500

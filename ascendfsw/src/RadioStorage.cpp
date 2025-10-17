@@ -25,6 +25,9 @@ bool RadioStorage::verify() {
 
   this->radio.setPacketSentAction(setTransmissionDoneFlag);
 
+  pinMode(RADIO_TX_ENABLE, OUTPUT); 
+  digitalWrite(RADIO_TX_ENABLE, HIGH); 
+
   return this->state == RADIOLIB_ERR_NONE;
 }
 

@@ -67,6 +67,17 @@
 #define RADIO_PREAMBLE_LEN 8
 #define RADIO_GAIN 0
 
+/** @brief Radio SPI  */
+#define RADIO_SPI SPI1
+
+// spi1
+/** @brief SPI1 MISO Pin */
+#define SPI1_MISO_PIN 12
+/** @brief SPI1 SCK Pin */
+#define SPI1_SCK_PIN 14
+/** @brief SPI1 MOSI Pin */
+#define SPI1_MOSI_PIN 15
+
 /** @brief SD Card SPI Toggle */
 #define SD_SPI1 1
 /** @brief SD Card SPI CS Pin */
@@ -76,14 +87,6 @@
 #define FLASH_SPI1 0
 /** @brief Flash chip SPI CS Pin */
 #define FLASH_CS_PIN 13
-
-// spi1
-/** @brief SPI1 MISO Pin */
-#define SPI1_MISO_PIN 12
-/** @brief SPI1 SCK Pin */
-#define SPI1_SCK_PIN 14
-/** @brief SPI1 MOSI Pin */
-#define SPI1_MOSI_PIN 15
 
 // main pin definitions
 /** @brief Built-in LED Pin */

@@ -13,7 +13,6 @@
  */
 class RadioStorage : public Storage {
  private:
- //    Module(uint32_t cs, uint32_t irq, uint32_t rst, uint32_t gpio, SPIClass& spi, SPISettings spiSettings = RADIOLIB_DEFAULT_SPI_SETTINGS);
   SX1276 radio = new Module(RADIO_NSS, RADIO_DIO0, RADIO_RESET, RADIO_DIO1, RADIO_SPI);
   int state;
 

@@ -13,7 +13,8 @@
  */
 class RadioStorage : public Storage {
  private:
-  SX1276 radio = new Module(RADIO_NSS, RADIO_DIO0, RADIO_RESET, RADIO_DIO1, RADIO_SPI);
+  SX1276 radio =
+      new Module(RADIO_NSS, RADIO_DIO0, RADIO_RESET, RADIO_DIO1, RADIO_SPI);
   int state;
 
  public:

@@ -27,8 +27,8 @@ bool RadioStorage::verify() {
 
   // turn to TX mode
   pinMode(RADIO_TX_ENABLE, OUTPUT);
-  pinMode(RADIO_RX_ENABLE, OUTPUT); 
-  digitalWrite(RADIO_RX_ENABLE, LOW); 
+  pinMode(RADIO_RX_ENABLE, OUTPUT);
+  digitalWrite(RADIO_RX_ENABLE, LOW);
   digitalWrite(RADIO_TX_ENABLE, HIGH);
 
   return this->state == RADIOLIB_ERR_NONE;

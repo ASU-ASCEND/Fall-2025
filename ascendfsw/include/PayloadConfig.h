@@ -58,7 +58,7 @@
 #define RADIO_TX_ENABLE 26
 #define RADIO_RX_ENABLE 27
 
-#define RADIO_FREQ 434.0
+#define RADIO_FREQ 915.0
 #define RADIO_BW 125.0
 #define RADIO_SF 9
 #define RADIO_CR 7

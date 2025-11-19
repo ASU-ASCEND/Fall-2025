@@ -50,7 +50,7 @@ var searchData=
   ['storedatapacket_47',['storeDataPacket',['../main1_8cpp.html#a5ea9df4efc2cfe37ef8d6fcfb3157a43',1,'main1.cpp']]],
   ['storepacket_48',['storepacket',['../classStorage.html#a6ee18f7841fdd0f70091764a59110db2',1,'Storage::storePacket()'],['../classSDStorage.html#a2f5cfea215ba9e388fcc37b2376e47b0',1,'SDStorage::storePacket()'],['../classRadioStorage.html#aca6bfee27f7e459cad2d4c5f8c522af1',1,'RadioStorage::storePacket()'],['../classFlashStorage.html#af9382cead1d4681dc2040bff95277cfa',1,'FlashStorage::storePacket()']]],
   ['storing_5fpackets_49',['STORING_PACKETS',['../PayloadConfig_8h.html#a8f0e89cf0d6f933f7f2e641f06fa7dc2',1,'PayloadConfig.h']]],
-  ['stratocore_5fi2c_50',['STRATOCORE_I2c',['../PayloadConfig_8h.html#a6badfe1ab65a3aeadbac2086bc859e13',1,'PayloadConfig.h']]],
+  ['stratocore_5fi2c_50',['STRATOCORE_I2C',['../PayloadConfig_8h.html#ad15fdd810ff907e5fd398d9389880c22',1,'PayloadConfig.h']]],
   ['stratodevils_20ascend_20fall_202025_51',['ASU StratoDevils ASCEND Fall 2025',['../index.html',1,'']]],
   ['stratosense_5fi2c_52',['STRATOSENSE_I2C',['../PayloadConfig_8h.html#a806e29d40dc5b11f62f363dbc6ff6877',1,'PayloadConfig.h']]],
   ['subfolders_53',['GitHub Subfolders',['../index.html#autotoc_md33',1,'']]],

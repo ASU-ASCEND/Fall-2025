@@ -48,7 +48,7 @@ TempSensor      temp_sensor       (1000);
 MTK3339Sensor   gps_sensor        (2000);
 ICM20948Sensor  icm_sensor        (0);
 PCF8523Sensor   rtc_sensor        (1000);
-TMP11xSensor    tmp_sensor        (500,   &STRATOCORE_I2c); 
+TMP11xSensor    tmp_sensor        (500,   &STRATOCORE_I2C); 
 
 // StratoSense
 AS7331Sensor    uv_sensor_out     (500, UV_I2C_ADDR);
@@ -90,9 +90,16 @@ void setup() {
   mutex_init(&cmd_data_mutex);
   ErrorDisplay::instance().addCode(Error::NONE);  // for safety
 
+  pinMode(BAD_I2C0_SDA_PIN, INPUT);
+  pinMode(BAD_I2C0_SCL_PIN, INPUT);
+
   // setup i2c1
   Wire1.setSCL(I2C1_SCL_PIN);
   Wire1.setSDA(I2C1_SDA_PIN);
+
+  // setup i2c0
+  Wire.setSCL(I2C0_SCL_PIN);
+  Wire.setSDA(I2C0_SDA_PIN);
 
   Wire.begin();
   Wire1.begin();

@@ -36,6 +36,14 @@
 #define I2C1_SDA_PIN 10
 #define I2C1_SCL_PIN 11
 
+/** @brief Default I2C0 pins for disabling */
+#define BAD_I2C0_SDA_PIN 4
+#define BAD_I2C0_SCL_PIN 5
+
+/** @brief I2C0 pins */
+#define I2C0_SDA_PIN 8
+#define I2C0_SCL_PIN 9
+
 /** @brief Default I2C Address for TMP117 */
 #define TMP117_I2C_ADDR 0x48
 
@@ -43,7 +51,7 @@
 #define STRATOSENSE_I2C Wire1
 
 /** @brief StatoCore board I2C Bus */
-#define STRATOCORE_I2c Wire
+#define STRATOCORE_I2C Wire
 
 // storages
 /** @brief Toggle sending packets vs C strings over transfer queue */

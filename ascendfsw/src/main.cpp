@@ -98,7 +98,7 @@ void setup() {
   Wire1.setSDA(I2C1_SDA_PIN);
 
   // setup i2c0
-  Wire.setSCL(I2C0_SCL_PIN); 
+  Wire.setSCL(I2C0_SCL_PIN);
   Wire.setSDA(I2C0_SDA_PIN);
 
   Wire.begin();

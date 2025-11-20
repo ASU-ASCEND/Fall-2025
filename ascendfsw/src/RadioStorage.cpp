@@ -40,7 +40,7 @@ bool RadioStorage::verify() {
  * @param data Data to transmit
  */
 void RadioStorage::store(String data) {
-  static const unsigned long transmission_mod = 1;
+  static const unsigned long transmission_mod = 3;
   static unsigned long transmission_count = 0;
   if (transmission_done_flag && transmission_count % transmission_mod == 0) {
     transmission_done_flag = false;

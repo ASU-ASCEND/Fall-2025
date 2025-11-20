@@ -117,7 +117,6 @@ class Sensor : public Device {
    * to the passed uint8_t array pointer, incrementing it while doing so
    *
    * @param packet Pointer to the packet byte array
-   * @return int The number of bytes appended
    */
   virtual void readDataPacket(uint8_t*& packet) {};
 

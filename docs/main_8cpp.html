@@ -89,6 +89,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="CommandMessage_8h_source.html">CommandMessage.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Sensor_8h_source.html">Sensor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="AS7331Sensor_8h_source.html">AS7331Sensor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="AnalogTemp_8h_source.html">AnalogTemp.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="BMP390Sensor_8h_source.html">BMP390Sensor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ENS160Sensor_8h_source.html">ENS160Sensor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ICM20948Sensor_8h_source.html">ICM20948Sensor.h</a>&quot;</code><br />
@@ -169,6 +170,8 @@ Variables</h2></td></tr>
 <tr class="separator:a720e48884a5873465f40f6008e64d287"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7823b38af63ba34ff99bd62b39e4a44" id="r_aa7823b38af63ba34ff99bd62b39e4a44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOzoneSensor.html">OzoneSensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#aa7823b38af63ba34ff99bd62b39e4a44">ozone_sensor_out</a> (500)</td></tr>
 <tr class="separator:aa7823b38af63ba34ff99bd62b39e4a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae494858e79249597fd8fafe6a81a51a5" id="r_ae494858e79249597fd8fafe6a81a51a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAnalogTemp.html">AnalogTemp</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#ae494858e79249597fd8fafe6a81a51a5">analog_temp_out</a> (500)</td></tr>
+<tr class="separator:ae494858e79249597fd8fafe6a81a51a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fab47e83fc30a637dd287c8a920f070" id="r_a6fab47e83fc30a637dd287c8a920f070"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSensor.html">Sensor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a6fab47e83fc30a637dd287c8a920f070">sensors</a> []</td></tr>
 <tr class="separator:a6fab47e83fc30a637dd287c8a920f070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2e2e34d5a2889006d561d83bd0287a6" id="r_aa2e2e34d5a2889006d561d83bd0287a6"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#aa2e2e34d5a2889006d561d83bd0287a6">sensors_len</a> = sizeof(<a class="el" href="main_8cpp.html#a6fab47e83fc30a637dd287c8a920f070">sensors</a>) / sizeof(<a class="el" href="main_8cpp.html#a6fab47e83fc30a637dd287c8a920f070">sensors</a>[0])</td></tr>
@@ -527,6 +530,24 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="ae494858e79249597fd8fafe6a81a51a5" name="ae494858e79249597fd8fafe6a81a51a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae494858e79249597fd8fafe6a81a51a5">&#9670;&#160;</a></span>analog_temp_out</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAnalogTemp.html">AnalogTemp</a> analog_temp_out(500) </td>
+          <td>(</td>
+          <td class="paramtype">500&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6eb1ff979b39bd536496e3bc4fffad58" name="a6eb1ff979b39bd536496e3bc4fffad58"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6eb1ff979b39bd536496e3bc4fffad58">&#9670;&#160;</a></span>bmp_sensor_out</h2>
 
@@ -743,7 +764,8 @@ Here is the caller graph for this function:</div>
 <b>Initial value:</b><div class="fragment"><div class="line">= {&amp;<a class="code hl_variable" href="main_8cpp.html#a6aaec7a466546ae9ce387852e01e5536">ina260_sensor</a>,  &amp;<a class="code hl_variable" href="main_8cpp.html#a24a54c1dabc1e13f503b7d5bb72fd588">temp_sensor</a>,       &amp;<a class="code hl_variable" href="main_8cpp.html#a6fc3a17157f10274d10618f69c394766">gps_sensor</a>,</div>
 <div class="line">                     &amp;<a class="code hl_variable" href="main_8cpp.html#ac51c0614f4dbbed55b8345e48817d25f">icm_sensor</a>,     &amp;<a class="code hl_variable" href="main_8cpp.html#a9730d7033cb371fd86349cf1f7b0ad21">rtc_sensor</a>,        &amp;<a class="code hl_variable" href="main_8cpp.html#a07717ba722c7743b9fe4c2a21055327d">tmp_sensor</a>,</div>
 <div class="line">                     &amp;<a class="code hl_variable" href="main_8cpp.html#a663f87b86658e522727e9b13f5ba278f">uv_sensor_out</a>,  &amp;<a class="code hl_variable" href="main_8cpp.html#a562f3f4f263cc46e18d81acf7de5c9a5">ens160_sensor_out</a>, &amp;<a class="code hl_variable" href="main_8cpp.html#a6eb1ff979b39bd536496e3bc4fffad58">bmp_sensor_out</a>,</div>
-<div class="line">                     &amp;<a class="code hl_variable" href="main_8cpp.html#a20ca35361ecbc67eaf97388126c783e0">tmp_sensor_out</a>, &amp;<a class="code hl_variable" href="main_8cpp.html#a720e48884a5873465f40f6008e64d287">shtc3_sensor_out</a>,  &amp;<a class="code hl_variable" href="main_8cpp.html#aa7823b38af63ba34ff99bd62b39e4a44">ozone_sensor_out</a>}</div>
+<div class="line">                     &amp;<a class="code hl_variable" href="main_8cpp.html#a20ca35361ecbc67eaf97388126c783e0">tmp_sensor_out</a>, &amp;<a class="code hl_variable" href="main_8cpp.html#a720e48884a5873465f40f6008e64d287">shtc3_sensor_out</a>,  &amp;<a class="code hl_variable" href="main_8cpp.html#aa7823b38af63ba34ff99bd62b39e4a44">ozone_sensor_out</a>,</div>
+<div class="line">                     &amp;<a class="code hl_variable" href="main_8cpp.html#ae494858e79249597fd8fafe6a81a51a5">analog_temp_out</a>}</div>
 <div class="ttc" id="amain_8cpp_html_a07717ba722c7743b9fe4c2a21055327d"><div class="ttname"><a href="main_8cpp.html#a07717ba722c7743b9fe4c2a21055327d">tmp_sensor</a></div><div class="ttdeci">TMP11xSensor tmp_sensor(500, &amp;STRATOCORE_I2C)</div></div>
 <div class="ttc" id="amain_8cpp_html_a20ca35361ecbc67eaf97388126c783e0"><div class="ttname"><a href="main_8cpp.html#a20ca35361ecbc67eaf97388126c783e0">tmp_sensor_out</a></div><div class="ttdeci">TMP11xSensor tmp_sensor_out(500, &amp;STRATOSENSE_I2C)</div></div>
 <div class="ttc" id="amain_8cpp_html_a24a54c1dabc1e13f503b7d5bb72fd588"><div class="ttname"><a href="main_8cpp.html#a24a54c1dabc1e13f503b7d5bb72fd588">temp_sensor</a></div><div class="ttdeci">TempSensor temp_sensor(1000)</div></div>
@@ -756,6 +778,7 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="amain_8cpp_html_a9730d7033cb371fd86349cf1f7b0ad21"><div class="ttname"><a href="main_8cpp.html#a9730d7033cb371fd86349cf1f7b0ad21">rtc_sensor</a></div><div class="ttdeci">PCF8523Sensor rtc_sensor(1000)</div></div>
 <div class="ttc" id="amain_8cpp_html_aa7823b38af63ba34ff99bd62b39e4a44"><div class="ttname"><a href="main_8cpp.html#aa7823b38af63ba34ff99bd62b39e4a44">ozone_sensor_out</a></div><div class="ttdeci">OzoneSensor ozone_sensor_out(500)</div></div>
 <div class="ttc" id="amain_8cpp_html_ac51c0614f4dbbed55b8345e48817d25f"><div class="ttname"><a href="main_8cpp.html#ac51c0614f4dbbed55b8345e48817d25f">icm_sensor</a></div><div class="ttdeci">ICM20948Sensor icm_sensor(0)</div></div>
+<div class="ttc" id="amain_8cpp_html_ae494858e79249597fd8fafe6a81a51a5"><div class="ttname"><a href="main_8cpp.html#ae494858e79249597fd8fafe6a81a51a5">analog_temp_out</a></div><div class="ttdeci">AnalogTemp analog_temp_out(500)</div></div>
 </div><!-- fragment -->
 </div>
 </div>

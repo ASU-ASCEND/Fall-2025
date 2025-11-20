@@ -28,6 +28,7 @@
 #include "SHTC3Sensor.h"
 #include "TMP11xSensor.h"
 #include "TempSensor.h"
+#include "AnalogTemp.h"
 
 // helper function definitions
 int verifySensors();
@@ -57,13 +58,14 @@ BMP390Sensor    bmp_sensor_out    (500,   &STRATOSENSE_I2C);
 TMP11xSensor    tmp_sensor_out    (500,   &STRATOSENSE_I2C); 
 SHTC3Sensor     shtc3_sensor_out  (500,   &STRATOSENSE_I2C);
 OzoneSensor     ozone_sensor_out  (500);
+AnalogTemp      analog_temp_out   (500); 
 // clang-format on
 
 // sensor array
 Sensor* sensors[] = {&ina260_sensor,  &temp_sensor,       &gps_sensor,
                      &icm_sensor,     &rtc_sensor,        &tmp_sensor,
                      &uv_sensor_out,  &ens160_sensor_out, &bmp_sensor_out,
-                     &tmp_sensor_out, &shtc3_sensor_out,  &ozone_sensor_out};
+                     &tmp_sensor_out, &shtc3_sensor_out,  &ozone_sensor_out, &analog_temp_out};
 
 const int sensors_len = sizeof(sensors) / sizeof(sensors[0]);
 

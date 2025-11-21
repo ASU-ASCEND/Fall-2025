@@ -78,6 +78,8 @@
 #define RADIO_PREAMBLE_LEN 8
 #define RADIO_GAIN 0
 
+#define MINIMUM_TRANSMIT_PERIOD_MS 10000 // 10s 
+
 /** @brief Radio SPI  */
 #define RADIO_SPI SPI
 

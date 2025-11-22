@@ -11,7 +11,7 @@ static void setTransmissionDoneFlag(void) { transmission_done_flag = true; }
  *
  */
 RadioStorage::RadioStorage() : Storage("Radio") {
-  this->last_transmission_time = 0; 
+  this->last_transmission_time = 0;
 }
 
 /**
@@ -44,7 +44,8 @@ bool RadioStorage::verify() {
 void RadioStorage::store(String data) {
   static const unsigned long transmission_mod = 1;
   static unsigned long transmission_count = 0;
-  if (transmission_done_flag && transmission_count % transmission_mod == 0 && (millis() - this->last_transmission_time) > MINIMUM_TRANSMIT_PERIOD_MS) {
+  if (transmission_done_flag && transmission_count % transmission_mod == 0 &&
+      (millis() - this->last_transmission_time) > MINIMUM_TRANSMIT_PERIOD_MS) {
     transmission_done_flag = false;
 
     if (this->state == RADIOLIB_ERR_NONE) {

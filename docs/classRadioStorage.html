@@ -139,6 +139,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a9f85e43caf79655a8e43abce0fb47dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada8521aaa8f1308d25a4c1912b7e1413" id="r_ada8521aaa8f1308d25a4c1912b7e1413"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRadioStorage.html#ada8521aaa8f1308d25a4c1912b7e1413">state</a></td></tr>
 <tr class="separator:ada8521aaa8f1308d25a4c1912b7e1413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa985fb98e71e886c53bb3ac59470d27b" id="r_aa985fb98e71e886c53bb3ac59470d27b"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRadioStorage.html#aa985fb98e71e886c53bb3ac59470d27b">last_transmission_time</a></td></tr>
+<tr class="separator:aa985fb98e71e886c53bb3ac59470d27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -276,6 +278,28 @@ false otherwise </dd></dl>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa985fb98e71e886c53bb3ac59470d27b" name="aa985fb98e71e886c53bb3ac59470d27b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa985fb98e71e886c53bb3ac59470d27b">&#9670;&#160;</a></span>last_transmission_time</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t RadioStorage::last_transmission_time</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9f85e43caf79655a8e43abce0fb47dbc" name="a9f85e43caf79655a8e43abce0fb47dbc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f85e43caf79655a8e43abce0fb47dbc">&#9670;&#160;</a></span>radio</h2>
 
@@ -298,7 +322,7 @@ false otherwise </dd></dl>
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">      <span class="keyword">new</span> <a class="code hl_variable" href="classDevice.html#a71f95d4b8d4a7af394d3e9c89ae87f7b">Module</a>(<a class="code hl_define" href="PayloadConfig_8h.html#aecada0a0e3aa3c8f32ce02c1c55e2479">RADIO_NSS</a>, <a class="code hl_define" href="PayloadConfig_8h.html#ab7f6e22a48ed98401bc31087efb0a7f1">RADIO_DIO0</a>, <a class="code hl_define" href="PayloadConfig_8h.html#a1bd90e2cc33f89a3bd2e0341821683cc">RADIO_RESET</a>, <a class="code hl_define" href="PayloadConfig_8h.html#ac9a997955646825175329d152f768687">RADIO_DIO1</a>, <a class="code hl_define" href="PayloadConfig_8h.html#a36d3cff8fd416765b92f1db989bf13c3">RADIO_SPI</a>)</div>
 <div class="ttc" id="aPayloadConfig_8h_html_a1bd90e2cc33f89a3bd2e0341821683cc"><div class="ttname"><a href="PayloadConfig_8h.html#a1bd90e2cc33f89a3bd2e0341821683cc">RADIO_RESET</a></div><div class="ttdeci">#define RADIO_RESET</div><div class="ttdef"><b>Definition</b> PayloadConfig.h:67</div></div>
-<div class="ttc" id="aPayloadConfig_8h_html_a36d3cff8fd416765b92f1db989bf13c3"><div class="ttname"><a href="PayloadConfig_8h.html#a36d3cff8fd416765b92f1db989bf13c3">RADIO_SPI</a></div><div class="ttdeci">#define RADIO_SPI</div><div class="ttdoc">Radio SPI</div><div class="ttdef"><b>Definition</b> PayloadConfig.h:82</div></div>
+<div class="ttc" id="aPayloadConfig_8h_html_a36d3cff8fd416765b92f1db989bf13c3"><div class="ttname"><a href="PayloadConfig_8h.html#a36d3cff8fd416765b92f1db989bf13c3">RADIO_SPI</a></div><div class="ttdeci">#define RADIO_SPI</div><div class="ttdoc">Radio SPI</div><div class="ttdef"><b>Definition</b> PayloadConfig.h:84</div></div>
 <div class="ttc" id="aPayloadConfig_8h_html_ab7f6e22a48ed98401bc31087efb0a7f1"><div class="ttname"><a href="PayloadConfig_8h.html#ab7f6e22a48ed98401bc31087efb0a7f1">RADIO_DIO0</a></div><div class="ttdeci">#define RADIO_DIO0</div><div class="ttdef"><b>Definition</b> PayloadConfig.h:66</div></div>
 <div class="ttc" id="aPayloadConfig_8h_html_ac9a997955646825175329d152f768687"><div class="ttname"><a href="PayloadConfig_8h.html#ac9a997955646825175329d152f768687">RADIO_DIO1</a></div><div class="ttdeci">#define RADIO_DIO1</div><div class="ttdef"><b>Definition</b> PayloadConfig.h:68</div></div>
 <div class="ttc" id="aPayloadConfig_8h_html_aecada0a0e3aa3c8f32ce02c1c55e2479"><div class="ttname"><a href="PayloadConfig_8h.html#aecada0a0e3aa3c8f32ce02c1c55e2479">RADIO_NSS</a></div><div class="ttdeci">#define RADIO_NSS</div><div class="ttdoc">Radio pinouts.</div><div class="ttdef"><b>Definition</b> PayloadConfig.h:65</div></div>

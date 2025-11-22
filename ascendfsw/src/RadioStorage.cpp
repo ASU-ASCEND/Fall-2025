@@ -10,7 +10,9 @@ static void setTransmissionDoneFlag(void) { transmission_done_flag = true; }
  * @brief Construct a new RadioStorage object
  *
  */
-RadioStorage::RadioStorage() : Storage("Radio") {}
+RadioStorage::RadioStorage() : Storage("Radio") {
+  this->last_transmission_time = 0;
+}
 
 /**
  * @brief Initialize UART1 (Serial1)
@@ -40,9 +42,10 @@ bool RadioStorage::verify() {
  * @param data Data to transmit
  */
 void RadioStorage::store(String data) {
-  static const unsigned long transmission_mod = 3;
+  static const unsigned long transmission_mod = 1;
   static unsigned long transmission_count = 0;
-  if (transmission_done_flag && transmission_count % transmission_mod == 0) {
+  if (transmission_done_flag && transmission_count % transmission_mod == 0 &&
+      (millis() - this->last_transmission_time) > MINIMUM_TRANSMIT_PERIOD_MS) {
     transmission_done_flag = false;
 
     if (this->state == RADIOLIB_ERR_NONE) {
@@ -54,6 +57,7 @@ void RadioStorage::store(String data) {
     this->radio.finishTransmit();
 
     this->state = this->radio.startTransmit(data);
+    this->last_transmission_time = millis();
   }
   transmission_count++;
 }

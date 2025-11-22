@@ -16,6 +16,7 @@ class RadioStorage : public Storage {
   SX1276 radio =
       new Module(RADIO_NSS, RADIO_DIO0, RADIO_RESET, RADIO_DIO1, RADIO_SPI);
   int state;
+  uint32_t last_transmission_time;
 
  public:
   RadioStorage();

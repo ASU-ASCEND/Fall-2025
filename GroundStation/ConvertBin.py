@@ -9,7 +9,7 @@ import re
 from time import sleep 
 from datetime import datetime 
 from tkinter import filedialog as fd 
-
+import sys
 from ConfigLoader import load_config
 
 # Define the path to the configuration file
@@ -166,9 +166,13 @@ def main():
   print("Using CSV Header:")
   print(", ".join(header_info[1]))
 
-  filepath = fd.askopenfilename()
+  if len(sys.argv) > 1:
+    for filepath in sys.argv[1:]:
+      convert_bin(filepath)
+  else: 
+    filepath = fd.askopenfilename()
 
-  convert_bin(filepath)
+    convert_bin(filepath)
 
 
 if __name__ == '__main__':
